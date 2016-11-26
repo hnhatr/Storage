@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_ola_me">Ola Me</string>
+    <string name="title_diary">Diarry</string>
+    <string name="message_fail">Error</string>
+    <string name="message_not_send">Not sent</string>
+    <string name="message_media_fail_large_file_size">Too large file</string>
+    <string name="message_media_fail_unsupport_file_size">Not support file type</string>
+    <string name="message_inform">Inform</string>
+    <string name="message_fail_short_username">Too short account name. At least 6 letters</string>
+    <string name="message_fail_short_password">Too short password. At least 6 letters</string>
+    <!--  -->
+    <string name="message_fail_username_invalid">Account name must be more than 6 letters, no special letters and spaces</string>
+    <string name="message_fail_password_invalid">Password must be more than 6 letters</string>
+    <string name="message_fail_load_me">Cannot view this Me page</string>
+    <string name="message_fail_load_diary">Cannot view diary</string>
+    <string name="message_diary_empty">Your diary is empty. Write first some things!</string>
+    <string name="message_fail_load_diary_with_problem">Error while loading diary</string>
+    <!--  -->
+    <string name="message_phone_number_validate">Phone number is verified</string>
+    <string name="message_phone_number_not_validate">Phone number is NOT verified</string>
+    <string name="message_phone_number_lock">Phone number is locked</string>
+    <string name="message_phone_number_unlock">Phone number is NOT locked</string>
+    <string name="message_fail_phone_invalid">Phone number is not blank</string>
+    <string name="message_fail_phone_number_invalid">Phone number is not valid</string>
+    <string name="message_fail_birthday_invalid">Birthday is blank</string>
+    <string name="message_fail_capchar_input">Type the verify code</string>
+    <string name="message_fail_username_exist">Account name is not available</string>
+    <string name="message_fail_username_or_password">Invalid account name or password</string>
+    <string name="message_fail_not_same_password">Re-typed password is not matched</string>
+    <string name="message_fail_capchar">Wrong verify code</string>
+    <string name="message_fail_unknow_reason">Error with unknown reason</string>
+    <string name="message_fail_permission_title">No permission activity</string>
+    <string name="message_fail_sdcard_unavailable">No SD Card in your device</string>
+    <string name="message_fail_permission_novipicon_content">You need VIP account for this feature</string>
+    <string name="message_fail_permission_access_format">You do not have permission to view VIP store of %1$s</string>
+    <string name="message_fail_load_vipstore">Cannot load VIP store</string>
+    <string name="message_remove_ad_hint">NO advertisement on your timeline with VIP account. Do you want to subcribe VIP?</string>
+    <string name="message_fail_transfer_ken_invalide_receiver">Invalid receiver account</string>
+    <string name="message_remain_format">Remain %1$s</string>
+    <string name="message_view_count_format">%1$s Viewers</string>
+
+    <!--  -->
+    <string name="message_send_sms_confirm_message">Ola will send SMS with service fee: %1$s. Do you agree?</string>
+    <string name="message_send_sms_manual_tip_format_from_indicated_phone_number">Using phone number %1$s to compose %2$s and send to %3$s (fee %4$s)</string>
+    <string name="message_send_sms_manual_tip_format_from_any_phone_number">Compose %1$s and send to %2$s (fee %3$s)</string>
+    <string name="message_lock_phone_number_format">Ola will send SMS to locked phone number %1$s with service fee: 500 VNĐ. Do you agree?</string>
+    <string name="message_unlock_phone_number_format">Ola will send SMS to unlocked phone number %1$s with service fee: 500 VNĐ. Do you agree?</string>
+    <string name="message_require_unlock_phone_number_format">You need to unlock phone number %1$s before changing to new phone number</string>
+    <string name="message_validate_phone_number_success">Verified account OK</string>
+    <string name="message_lock_phone_number_success">Lock phone number OK</string>
+    <string name="message_unlock_phone_number_success">Unlock phone number OK</string>
+    <!--  -->
+    <string name="message_connection_lost_network_title">Cannot connect to Ola with Internet problem</string>
+    <string name="message_connection_lost_network_content">No Internet on your device</string>
+    <string name="message_connection_login_another_content">Your account is accessed on other devices</string>
+    <!--  -->
+    <string name="message_report_sent">Thanks for your report to Ola</string>
+
+    <!--  -->
+    <string name="message_web_app_can_not_load">Error while loading applications</string>
+    <!--  -->
+    <string name="message_go_online_wellcome">Welcome %1$s</string>
+    <!--  -->
+    <string name="message_attach_me_media_confirm_format">Attached media is %1$s/%2$s</string>
+    <string name="message_contact_status_online">%1$2s ONLINE</string>
+    <string name="message_contact_status_offline">%1$2s offline</string>
+    <!--  -->
+    <string name="message_limit_media_upload_by_vip_permission_format">Need VIP account to upload %1$s media.</string>
+    <string name="message_vip_tradding_deny">VIP transaction is denied</string>
+    <string name="message_vip_tradding_accept">VIP transaction is accepted</string>
+    <string name="message_vip_tradding_accept_format">%1$s accepts VIP transaction</string>
+    <string name="message_tradding_confirm">Confirm transaction</string>
+    <string name="message_tradding_confirm_content_format">Re-type exactly KEN amount \"%1$s\" to confirm VIP transaction</string>
+    <string name="message_edit_me_back_confirm">Do you want to save Me draft?</string>
+    <string name="confirm_discard_draft_content">Do you want to discard draft?</string>
+    <string name="message_edit_note_back_confirm">Do you want to save Note draft?</string>
+    <string name="message_mediastore_back_confirm">Do you want to exit media store</string>
+    <string name="message_server_busy">System is busy. Please try again later</string>
+    <string name="message_server_spam">Too fast action. Please slow down</string>
+    <string name="message_receive_vip_transfering_ok">Received %1$s VIP days %2$s from %3$s. Access VIP store to check</string>
+    <!--  -->
+    <string name="message_chat_background_change_success">Changed conversation background OK</string>
+    <!--  -->
+    <string name="message_activity_not_found">No application which supports this feature found on your device</string>
+    <string name="message_contact_nothing_select">No selected contact</string>
+    <string name="message_media_nothing_select">No selected media</string>
+    <!--  -->
+    <string name="message_select_media_to_set_avatar">Select media for avatar</string>
+    <string name="message_select_media_to_set_background">Select media for application wallpaper</string>
+    <string name="message_select_media_to_set_cover">Select media for cover</string>
+    <string name="message_select_media_to_attach_note">Select media to insert Note</string>
+    <string name="message_select_media_to_set_chat_background">Select media for conversation background</string>
+    <string name="message_select_media_to_post_me">Select media to post ME</string>
+    <string name="message_select_media_to_send_message">Select media to send message</string>
+    <string name="message_select_media_to_add_album">Select media fro adding to album</string>
+    <string name="message_select_media_to_create_album">Select media to create album</string>
+    <string name="message_select_media_to_create_venue">Select media to create venue</string>
+    <string name="message_select_media_to_create_item">Select media to create check in item</string>
+    <!--  -->
+    <string name="message_common_media_size_fail">Cannot upload file %1$2s max size %2$2s</string>
+    <string name="message_common_media_format_fail">File format %s is not supported</string>
+    <string name="message_post_me_background_notify">Your post is sending. Please wait</string>
+    <string name="message_mariage_request_sent">Marriage proposal sent to %1$s</string>
+    <string name="message_upload_media_photo_background_sucess">Upload photo OK</string>
+    <string name="message_upload_media_sound_background_sucess">Upload sound OK</string>
+    <string name="message_upload_media_video_background_sucess">Upload video OK</string>
+    <string name="message_post_me_media_upload_report_format">OK: %1$s errors: %2$s Total: %3$s</string>
+    <string name="message_post_me_background_success1">Your post was successful</string>
+    <string name="message_post_me_background_success2">Touch to view Me</string>
+    <string name="message_post_bin_background_success1">Saved to diary!</string>
+    <string name="message_post_bin_background_success2">Touch to view diary</string>
+    <string name="message_post_box_background_success1">Saved to Box!</string>
+    <string name="message_post_box_background_success2">Touch to view Box</string>
+    <string name="message_post_me_background_fail">Your post was unsuccessful</string>
+    <string name="message_post_me_background_fail_large_file">Your post was unsuccessful. Media to large</string>
+    <string name="message_post_me_background_fail_unsupport_format">Your post was unsuccessful. Media format is not supported</string>
+    <string name="message_media_load_from_local_fail">Media is corrupted. Please choose others</string>
+
+    <!--  -->
+    <string name="message_publish_note_background_success1">Note is published</string>
+    <string name="message_publish_note_background_success2">Touch to view Note</string>
+    <string name="message_publish_note_background_fail">Upload media to Note unsuccessfully</string>
+    <string name="message_publish_note_background_fail_unsupport_format">Upload media to Note unsuccessfully. Unsupported file format</string>
+    <string name="message_publish_note_background_fail_large_file">Upload media to Note unsuccessfully. Too large file</string>
+    <string name="message_publish_note_background_notify">Publishing Note. Please wait</string>
+    <!--  -->
+    <string name="message_delete_album_confirm_format">Do you want to delete album %1$s?</string>
+    <string name="message_add_media_to_album_format">Do you want to add %1$s media to album %2$s?</string>
+    <string name="message_request_delete_album_success_format">Deleted album %1$s successfully</string>
+    <string name="message_create_album_confirm_format">Create album %1$s with %2$s media</string>
+    <string name="message_update_album_info_confirm_format">Do you want to update album %1$s?</string>
+    <string name="message_update_album_info_success">Updated album successfully</string>
+    <string name="message_upload_create_album_confirm_format">Upload and add %1$s media to album %2$s</string>
+    <string name="message_upload_media_confirm_format">You will upload %1$s media to Ola</string>
+    <string name="message_upload_media_to_ola">Uploading media to Ola</string>
+    <string name="message_request_create_album_success_format">Created album %1$s successfully</string>
+    <string name="message_request_add_media_to_album_success_format">Added %1$s media to album %2$s successfully</string>
+    <string name="message_create_album_background_success1">Create album successfully</string>
+    <string name="message_create_album_background_success2">Touch to open album</string>
+    <string name="message_create_album_background_fail">Add media to album unsuccessfully</string>
+    <string name="message_create_album_background_fail_unsupport_format">Add media to album unsuccessfully. Unsupported file format</string>
+    <string name="message_create_album_background_fail_large_file">Add media to album unsuccessfully. Too large file</string>
+    <string name="message_create_album_background_notify">Creating album. Please wait</string>
+    <string name="message_can_not_open_camera">Cannot open camera at this time</string>
+    <string name="message_can_not_play_this_video">Cannot play this video</string>
+    <string name="message_can_not_play_this_music">Cannot play this song</string>
+    <string name="message_receiver_id_not_null">Receiver account name</string>
+    <string name="message_marriage_request_message_not_null">Proposal message</string>
+    <string name="message_send_empty_me_content">Cannot post blank Me message</string>
+    <string name="message_empty_vip">No VIP</string>
+    <string name="message_empty_favorite_list">Close friends list is empty</string>
+    <string name="message_num_song_format">%1$s songs</string>
+    <string name="message_block_chat_title">Block messages</string>
+    <string name="message_block_chat_confirm_format">Do you want to block messages from %1$s?</string>
+    <string name="message_can_not_create_chatgroup">Cannot create chat group</string>
+    <string name="message_can_not_create_clan">Cannot create Clan</string>
+    <string name="message_receive_message_chatgroup">%1$s sent messages to chat group %2$s</string>
+    <string name="message_receive_new_messages">New messages</string>
+    <string name="message_receive_message_notification">New messages</string>
+    <string name="message_receive_photo_notification1">You\'ve received 1 photo</string>
+    <string name="message_receive_photo_notification2">%1$s sent to you photo</string>
+    <string name="message_receive_sound_notification1">You\'ve received sound file</string>
+    <string name="message_receive_sound_notification2">%1$s sent to you sound file</string>
+    <string name="message_receive_video_notification1">You\'ve received video file</string>
+    <string name="message_receive_video_notification2">%1$s sent to you video file</string>
+    <string name="message_receive_file_notification1">You\'ve received file</string>
+    <string name="message_receive_file_notification2">%1$s sent to you file</string>
+    <string name="message_getting_location">Locating your position</string>
+    <string name="message_location_cdma_location_unreliable">Your location service is not available</string>
+    <string name="message_location_network_location_unavaliable">Your location service is not available</string>
+    <string name="message_happy_birthday">Happy birthday</string>
+    <string name="message_not_yet_get_location">Your location service is not available</string>
+    <string name="message_can_not_join_to_neighbor_room">Cannot join room</string>
+    <string name="message_neighbors_found_title">Hi neighbor</string>
+    <string name="message_neighbors_found_content">Find friends nearby</string>
+    <string name="message_free_chat"><![CDATA[To begin a new chat, simply tap on the <MESSAGE> icon at the bottom right corner.]]></string>
+    <string name="message_make_friend_by_chat">Make friends from Chat room</string>
+    <string name="message_make_friend_by_list_confirm_format">Do you want to add %1$s friend(s) to group %2$s?</string>
+    <string name="message_input_capcha">Enter verification code</string>
+    <string name="message_media_volume_too_small">Turn up your volume please</string>
+    <string name="message_balance_current_format">Balance: %1$s KEN</string>
+    <string name="message_location_provider_gps_unavailable_title">GPS Setting</string>
+    <string name="message_location_provider_gps_unavailable">Turn ON GPS location service for exact result</string>
+    <string name="message_location_provider_unavailable_title">Setting GPS</string>
+    <string name="message_location_provider_unavailable">Cannot get your GPS location. You need to turn ON GPS on your device</string>
+    <string name="message_watting_join">Joining room</string>
+    <string name="message_room_full_format">Room is full. Subribe VIP account to join</string>
+    <string name="message_vip_need_extension_notify">VIP account is going expired. Do you want to extend?</string>
+    <string name="message_vip_introduction_notify"><![CDATA[Subcribe VIP account for fabulous features: Ola HOT news, join full rooms,...]]></string>
+    <string name="message_vip_permisson_request">This feature requires VIP account</string>
+    <string name="message_vip_purchase_action">Purchase VIP</string>
+    <string name="message_ratting_app">Rating Ola</string>
+    <string name="message_like_app">Love Ola</string>
+    <string name="message_like_app_content">Press \"Thích\Like\" Fanpage Ola Facebook!</string>
+    <string name="message_ratting_app_content">Vote us with good rating!</string>
+    <string name="message_quit_group_format">You quit chat room %s</string>
+    <string name="message_clear_me_history">Do you want to clear Me history</string>
+    <string name="message_clear_all_rss_history">Do you want to clear history</string>
+    <string name="message_clear_all_rss_bookmark">Do you want to clear all bookmarks</string>
+    <string name="message_clear_rss_history">Do you want to delete history</string>
+    <string name="message_clear_rss_bookmark">Do you want to delete bookmark</string>
+    <string name="message_receive_chatgroup_invite_format">%1$s invite you to chat group</string>
+    <string name="message_chatgroup_accept">You accept chat group invitation</string>
+    <string name="message_chatgroup_joined_format">%1$s joins chat group</string>
+    <string name="message_chatgroup_joined_format_hide_sender">Chat group invitation</string>
+    <string name="message_chatgroup_deny_format">%1$s denies chat group invitation</string>
+    <string name="message_chatgroup_leave_format">%1$s leaves chat group</string>
+    <string name="message_chatgroup_leave_confirm_format">Do you want to leave chat group %1$s</string>
+    <string name="message_accept_join_to_chat_group_format">%1$s accepts chat group invitation</string>
+    <string name="message_like_this_article">Like this article</string>
+    <string name="message_like_this_clip">Like this clip</string>
+    <string name="message_warning_change_ovatar_display_style">You should change to VIP icon display mode if your app runs lag later</string>
+    <string name="message_accept_married_proposal">Do you agree to get married with @%1$s?</string>
+    <string name="message_deny_married_proposal">Do you want to reject marriage proposal from @%1$s?</string>
+    <string name="message_turn_off_friend_suggestion_confirm">Do you want to turn off friend suggestion? You can turn on again in Ola Settings - Me - Friend suggestion</string>
+    <string name="message_service_is_not_available_now">This service is not available at the moment. Please try again later</string>
+    <string name="message_google_play_bill_account_not_available">Google payment service is not available. Please check whether you signed to Google account on your device</string>
+    <string name="message_deny_join_to_chat_group_format">%1$s denies chat gorup invitation</string>
+    <string name="message_create_chatgroup">Create chat group</string>
+    <string name="message_create_clan_waitting_format">Creating Clan %1$s</string>
+    <string name="message_clan_exist_format">Clan %1$s is not available. Please choose another</string>
+    <string name="message_clan_available_format">Clan is available. You can use this</string>
+    <string name="message_clan_validate">Check Clan name</string>
+    <string name="message_create_clan_confirm_format">You will pay %1$s to create Clan</string>
+    <string name="message_create_clan_request_sent_format">Sending request to create Clan %1$s</string>
+    <string name="message_create_clan_success">Create Clan OK</string>
+    <string name="message_create_clan_success_format">Create Clan %1$s OK</string>
+    <string name="message_chat_chatgroup_join_watting">Joining to chat group</string>
+    <string name="message_chat_chatgroup_join_timeout">Join chat group fail</string>
+    <string name="message_chat_chatgroup_create_watting">Creating chat group</string>
+    <string name="message_load_chatgroup_member_watting">Loading chat group list</string>
+    <string name="message_chat_chatgroup_create_fail">Create chat group fail</string>
+    <string name="message_invite_friend_to_chatgroup">Invite to chat group</string>
+    <string name="message_invite_friend_to_chatgroup_format">Invited %1$s to chat group</string>
+    <string name="message_create_conversation">Create conversation</string>
+    <string name="message_play_ptt_auto">Voice Chat On</string>
+    <string name="message_input_alias">Enter alias</string>
+    <string name="message_input_clan_name">Enter Clan name</string>
+    <string name="message_found_friend">Find friends</string>
+    <string name="message_call_support_not_available">Cannot make call on this device. Use another on to dial %s for support</string>
+    <string name="message_input_group_name_exist">Group existing</string>
+    <string name="message_input_group_name">Enter group name</string>
+    <string name="message_play_ptt_auto_disable">Voice Chat Off</string>
+    <string name="message_never_show_again">Do not show again</string>
+    <string name="message_delete_me_format">Do you want to delete Me of %s?</string>
+    <string name="message_delete_all_me_from_clan_format">Do you want to delete ME of %1$s in Clan %2$s?</string>
+    <string name="message_ban_from_clan_confirm_format">Do you want to ban %1$s from Clan %2$s?</string>
+    <string name="message_delete_all_me_from_clan_of">Delete Me from %1$s</string>
+    <string name="message_add_news_bookmar_success">Bookmark was added</string>
+    <string name="message_add_news_bookmar_fail">Add bookmark fail</string>
+    <string name="message_delete_news_bookmar_success">Bookmark was deleted</string>
+    <string name="message_delete_news_bookmar_fail">Cannot delete bookmark</string>
+    <string name="message_delete_bookmark_format">Do you want to delete Bookmark \"%1$s\"?</string>
+    <string name="message_delete_media_in_album_format">You will delete %1$s media in album %2$s</string>
+    <string name="message_delete_media_in_upload_album_format">You will delete permanently %1$s media in album %2$s</string>
+    <string name="message_delete_media_in_server_format">You will delete %1$s media from Ola</string>
+    <string name="message_delete_media_progress_format">Delete %1$s/%2$s media</string>
+    <string name="message_delete_note_media">Do you want to delete this media?</string>
+    <string name="message_delete_me_history">Do you want to delete Me history?</string>
+    <string name="message_delete_media_watting">Deleting media</string>
+    <string name="message_delete_me_account_format">Do you want to delete all saved data of account %1$s on device?</string>
+    <string name="message_attach_out_of_bound">You cannot attach more than %s media in one ME message</string>
+    <string name="message_camera_capture_error">Camera error. Please restart your phone and try again</string>
+    <string name="message_camera_capture_too_fast">DO NOT take picture too fast</string>
+    <string name="message_buy_vip_invite_receive_deny">You denied VIP transaction request</string>
+    <string name="message_buy_vip_invite_receive_accept">You accepted VIP transaction request</string>
+    <string name="message_buy_vip_invite_receive_request">You receive VIP transaction request</string>
+    <string name="message_buy_vip_invite_sent_request">You sent VIP transaction request</string>
+    <string name="message_buy_vip_fail_timeout">Purchase VIP fail</string>
+    <string name="message_give_vip_fail_timeout">Send VIP fail</string>
+    <string name="message_give_day_vip_fail_timeout">Send VIP days fail</string>
+    <string name="message_purchase_ken_fail">Purchase KEN fail</string>
+    <string name="message_purchase_ken_success">Purchase KEN OK</string>
+    <string name="message_note">Note</string>
+    <string name="message_purchase_ken_by_card_fail_format">You tried %1$s times. Over %2$s times, your SIM card will be locked</string>
+    <string name="message_purchase_ken_by_card_fail_invalid_card">Online payment is not activated on this prepaid card. Please contact to card provider</string>
+    <string name="message_purchase_ken_by_card_watting">Depositing KEN by prepaid card</string>
+    <string name="message_purchase_is_processing">Your transaction is processing. Please wait</string>
+    <string name="message_start_conversation">Start chatting</string>
+    <string name="message_change_group_name">Rename group</string>
+    <string name="message_change_group">Change group</string>
+    <string name="message_waiting_network">Waiting for Internet</string>
+    <string name="message_unavaliable_network">No Interent connection</string>
+    <string name="message_found_friend_format">You may know these %s persons</string>
+    <string name="message_found_friends">Acquaintances</string>
+    <string name="message_full_version_file">Premium version</string>
+    <string name="message_notify_wrong_password">Invalid password</string>
+    <string name="message_notify_system_error">System error! Please sign in again</string>
+    <string name="message_change_password_success">Password was changed successfully</string>
+    <string name="message_change_password_watting">Changing password</string>
+    <string name="message_change_password_wrong_old_password">Wrong old password</string>
+    <string name="message_change_password_blank_password">Password must be at least 6 letters</string>
+    <string name="message_change_password_unmatched_new_password">New password and re-typed password are not matched</string>
+    <string name="message_loadicon_info">Loading Vip information </string>
+    <string name="message_load_info">Load info</string>
+    <string name="message_change_alias">Change alias</string>
+    <string name="message_change_ovatar_post_me">Change new profile picture</string>
+    <string name="message_change_cover_success">Cover picture was changed</string>
+    <string name="message_change_cover_too_small">Width of cover picture is too small. Current is %1$s. Required width is %2$s</string>
+    <string name="message_change_cover_fail">Cannot change cover picture at this time. Please try again later</string>
+    <string name="message_change_cover_watting">Changing cover picture. Please wait!</string>
+    <string name="message_change_cover_post_me">Changed new cover picture</string>
+    <string name="message_change_avatar_success">Profile picture was changed</string>
+    <string name="message_change_avatar_too_small">Width of profile picture is too small. Current is %1$s. Required width is %2$s</string>
+    <string name="message_change_avatar_fail">Cannot change profile picture at this time. Please try again later</string>
+    <string name="message_change_ovatar_watting">Changing profile picture. Please wait!</string>
+    <!--  -->
+    <string name="message_change_clan_avatar_success_format">Changed avatar for Clan %1$s</string>
+    <string name="message_change_clan_avatar_fail_format">Cannot change avatar for Clan %1$s at this time. Please try again later</string>
+    <string name="message_change_clan_ovatar_watting_format">Changing avatar for Clan %1$s. Please wait!</string>
+    <string name="message_change_clan_ovatar_post_me_format">Changed new avatar for Clan %1$s</string>
+    <string name="message_change_clan_cover_success_format">Changed cover picture for Clan %1$s</string>
+    <string name="message_change_clan_cover_too_small">Width of cover picture is too small. Current is %1$s. Required width is %2$s</string>
+    <string name="message_change_clan_cover_fail_format">Cannot change cover picture for Clan %1$s at this time. Please try again later</string>
+    <string name="message_change_clan_cover_watting_format">Changing cover picture for Clan %1$s. Please wait!</string>
+    <string name="message_change_clan_cover_post_me_format">Changed cover picture for Clan %1$s</string>
+    <string name="message_change_chat_background_success">Changed conversation background</string>
+    <string name="message_change_app_background_success">Changed Ola wallpaper</string>
+    <string name="message_change_phone_number">Change phone number</string>
+    <string name="message_connection_unreachable">Cannot connect to server. Check your Internet and try again</string>
+    <string name="message_connection_login_fail">Sign in fail</string>
+    <string name="message_connection_login_fail_password">Invalid password</string>
+    <string name="message_connection_login_fail_usernameorpassword">Invalid username or password</string>
+    <string name="message_connection_login_watting">Sign in to Ola. Please wait!</string>
+    <string name="message_connection_login_timeout">Sign in fail. Please try again</string>
+    <string name="message_process_timeout">Request timeout. Please try again</string>
+    <string name="message_max_vip_day_tradding_format">Maximum VIP days for transferring is %1$s</string>
+    <string name="message_max_vip_price_tradding_format">Maximum KEN transferring is %1$s</string>
+    <string name="message_not_enought_ken">Not enough KEN for transaction</string>
+    <string name="message_not_enought_vip_day">Not enough VIP day for transaction</string>
+    <string name="message_send_sms_ok">Sent SMS OK</string>
+    <string name="message_send_sms_fail_confirm">Cannot send SMS. Please check your SIM card</string>
+    <string name="message_max_media_upload_format">Maximum %1$s media for upload at once time</string>
+    <string name="message_tip_to_recover_password">Compose \"RESET nickOla\" send to 8031. Or call %1$s for detail supporting</string>
+    <string name="message_choose_sms_or_prepaid_card">Do you want to purchase KEN by SMS or prepaid card</string>
+    <string name="message_ken_deposit_by_sms_sending">Sending SMS to purchase KEN</string>
+    <string name="message_recover_password_by_sms_sending">Sending SMS for recovering password. Please wait</string>
+    <string name="message_ken_deposit_by_sms_sent_ok">Send SMS to purchase KEN OK. Please wait for SMS response</string>
+    <string name="message_recover_password_by_sms_sent_ok">Sent SMS OK. Please wait from system</string>
+    <string name="message_sms_buy_vip_sending">Sending SMS to purchase VIP. Please wait</string>
+    <string name="message_sms_buy_vip_sent_ok">Sent SMS to purchase VIP OK!</string>
+    <string name="message_call_manual">Call</string>
+    <string name="message_call_manual_hint">Please dial %s</string>
+    <string name="message_call_support">Call Support</string>
+    <string name="message_call_support_hint">Dial %s for support from Ola</string>
+    <string name="message_simcard_not_avaliable">SIM card is not available</string>
+    <string name="message_download_media_ok">Download media OK</string>
+    <string name="message_download_media">Download media</string>
+    <string name="message_download_apk_version">You need install Ola premium version to use this feature. Press Download to install</string>
+    <string name="message_download_image_ok">Save to folder %1$s on your device</string>
+    <string name="message_show_popup_message">Message notification</string>
+    <string name="settings_ola_app_wallpaper_message">Ola Wallpaper</string>
+    <string name="message_fearture_camera_not_avaliable">Your device does not support camera</string>
+    <string name="message_fearture_notyetimplement">This feature is available on next version</string>
+    <string name="message_fearture_not_supported">Not supported feature</string>
+    <string name="message_fearture_notyetimplement_in_chatroom">Feature is not available in Chat room</string>
+    <string name="message_delete_buddy_format">Do you want to delete %s from contact list</string>
+    <string name="message_delete_multi_buddy_format">Do you want to delete %s friend(s) from contact list</string>
+    <string name="message_not_follow">Stop care</string>
+    <string name="message_me_display_contact_style">Show full name</string>
+    <string name="message_me_friend_suggestion">Friend suggestion</string>
+    <string name="message_auto_play_video_wifi">Auto play video when WIFI</string>
+    <string name="message_delete_buddy_group_format">Do you want to delete group %s</string>
+    <string name="message_delete_not_empty_buddy_group_format">Group %1$s is having %2$s member(s). You must delete all members before deleting group</string>
+    <string name="message_choose_purchase_price_package">Choose VIP package</string>
+    <string name="message_buy_vip_by_sms">Buy VIP by SMS</string>
+    <string name="message_receive_ken_from_someone_notification_title">Receive KEN!</string>
+    <string name="message_receive_ken_from_someone">You receive %1$s KEN from %2$s to account %3$s.</string>
+    <string name="message_transfer_ken_number">Transferred KEN amount</string>
+    <string name="message_transfer_ken_watting">Transferring KEN</string>
+    <string name="message_transfer_ken_success_notification_title">Transfer KEN successfully</string>
+    <string name="message_cannot_transfer_ken_to_you">Cannot transfer KEN to yourself</string>
+    <string name="message_transfer_ken_success_format">Transfer KEN successfully to %1$s</string>
+    <string name="message_transfer_ken_confirm_format">You transfer %1$s KEN to %2$s</string>
+    <string name="message_buy_vip_confirm_format">You buy VIP %1$s with package %2$s</string>
+    <string name="message_bought_vip_confirm_format">You paid %1$s KEN to buy VIP %2$s with duration: %3$s day(s)</string>
+    <string name="message_give_vip_confirm_format">You give VIP %1$s with package %2$s to %3$s</string>
+    <string name="message_gived_vip_confirm_format">You give %1$s VIP %2$s with duration: %3$s day(s)</string>
+    <string name="message_give_day_vip_confirm_format">You send %1$s day(s) with price %2$s KEN to %3$s</string>
+    <string name="message_extend_day_vip_confirm_format">You will extend %1$s day(s) with price %2$s KEN</string>
+    <string name="message_gived_day_vip_confirm_format">%1$s send to you VIP %2$s with duration: %3$s day(s)</string>
+    <string name="message_buy_vip_tranning_fail_timeout">VIP transaction fail</string>
+    <string name="message_tradding_min_ken_value_format">Minimum transaction is %1$s KEN</string>
+    <string name="message_buy_vip_tranning_fail">VIP transaction is OK</string>
+    <string name="message_buy_vip_tranning">VIP transaction is processing</string>
+    <string name="message_loading_buy_info">Loading VIP Box</string>
+    <string name="message_loading_ken_info_fail">Cannot purchase KEN at this time</string>
+    <string name="message_out_of_ken">Run out of KEN, purchase more KEN to subcribe VIP, play Eggy and a lot of interesting features on Ola. Touch here to buy more KEN</string>
+    <string name="message_low_ken">Your account almost runs out of KEN. You can purchase more KEN by prepaid card or SMS</string>
+    <string name="message_vip_lock_confirm_format">VIP %1$s is locked. Do you want to unlock for transaction?</string>
+    <string name="message_saving_media_progress">Saving media to device</string>
+    <string name="message_saving_media_success">Save media to device OK</string>
+    <string name="message_saving_image_fail">Save media to device with error</string>
+    <string name="message_saving_screen_shot_progress">Screenshot is processing. Please wait!</string>
+    <string name="message_saving_screen_shot_fail">Screen capture error. Please try again</string>
+    <string name="message_saving_screen_shot_ok">Saved to folder %1$s on your device</string>
+    <string name="ken_value_avaliable_format">You have: %1$s KEN</string>
+    <string name="ken_purchase_price_package">Choose KEN package</string>
+    <string name="message_your_vip_store">Your VIP Box</string>
+    <string name="message_vip_is_locked">VIP is locked</string>
+    <string name="message_vip_is_in_use">VIP is activated</string>
+    <string name="message_vip_store_of">VIP Box of %1$s</string>
+    <string name="message_delete_vipicon_confirm">Do you want to delete VIP %1$s?</string>
+    <string name="message_active_vipicon_confirm">Cost 1 VIP day to activate VIP %1$s. Do you want to continue</string>
+    <string name="message_change_vip_store_privacy">VIP Box privacy changed</string>
+    <string name="message_can_not_change_vip_store_privacy">Cannot change VIP Box privacy</string>
+    <string name="me_message_follow_confirm">Do you want to care?</string>
+    <string name="me_message_notfollow_confirm">Do you want to stop care %1$s?</string>
+    <string name="me_message_block_me_confirm">Do you want to block Me from %1$s?</string>
+    <string name="me_message_join_confirm">Do you want to join this Clan?</string>
+    <string name="me_message_notjoin_confirm">Do you want to quit this Clan?</string>
+    <string name="me_message_share_confirm">Do you want to share this Me?</string>
+    <string name="me_message_post_watting">Your post is sending</string>
+    <string name="me_message_author_format">From %1$s</string>
+    <string name="me_no_content_page">Me page has no content</string>
+    <string name="button_chat_room">Chat room</string>
+    <string name="message_day">Day</string>
+    <string name="message_room_member_count">%1$s member(s)</string>
+    <string name="message_current_room_format">Room %1$s</string>
+    <string name="message_public_room_count">%1$s chat room(s)</string>
+    <string name="message_can_not_load_more">Cannot load more</string>
+    <string name="message_can_not_load_comment">Cannot load comment</string>
+    <string name="message_chat_message_from">Message from @%1$s</string>
+    <string name="message_login">Sign in</string>
+    <string name="message_post">Post</string>
+    <string name="message_nick_is_exist">* Friend is existing</string>
+    <string name="message_not_input_nick">* Blank account name</string>
+    <string name="message_not_have_info">No information</string>
+    <string name="message_not_input_group">* Blank group name</string>
+    <string name="message_logout_confirm">Do you want to sign out Ola?</string>
+    <string name="message_logout_waiting">Sign out Ola, please wait!</string>
+    <string name="message_clear_password">Delete password</string>
+    <string name="message_waiting_for_message_after_signout">Wait messages</string>
+    <string name="message_clear_conversation_content_history">Delete archived message</string>
+    <string name="message_copy_to_clipboard">Copy \"%1$s\" to clipboard</string>
+    <string name="message_comment_success">Post comment OK</string>
+    <string name="message_search_key">Key words</string>
+    <string name="message_watting"><![CDATA[Waiting ...]]></string>
+    <string name="message_send_media_progress_format">Upload %1$s/%2$s (%3$s)</string>
+    <string name="message_chat_typing">%1$2s is typing</string>
+    <string name="message_invite_to_chat_group">You receive chat group invitation from %1$2s</string>
+    <string name="message_delete_conversation_history_confirm">Do you want to delete all archived message of this conversation?</string>
+    <string name="message_delete_conversation_confirm">Do you want to delete this conversation?</string>
+    <string name="message_quit_chat_room_confirm">Do you want to quit broadcast chat room %1$s?</string>
+    <string name="message_draft_me_notify_format">You have %1$s Me draft(s)</string>
+    <string name="message_draft_note_notify_format">You have %1$s Note draft(s)</string>
+    <string name="message_delete_draft_me_confirm">Do you want to delete this me draft?</string>
+    <string name="message_delete_favourite_friend_confirm">Do you want to delete %1$s from close friend list?</string>
+    <string name="message_delete_selected_conversations_confirm">Do you want to delete %1$s selected conversation(s)?</string>
+    <string name="message_transfer_progress">%1$2s/%2$2s</string>
+    <string name="message_map_loading_friend">Map is loading. Please wait</string>
+    <string name="message_map_loading_friend_title">Show friend location</string>
+    <string name="message_map_loading_fail_no_google_service">Google serivice is not installed on your device. You cannot use this feature</string>
+    <string name="message_map_loading_gps_fail">Location is not available!</string>
+    <string name="message_please_login_before_using_ola">You need to sign in Ola by account @%1$s!</string>
+    <string name="message_please_login_before_using_ola_withou_username">You need to sign in Ola!</string>
+    <string name="message_press_back_again_to_go_home">Press back again to exit!</string>
+    <string name="message_sms_sender_not_found">No SMS application on your device</string>
+    <string name="message_unread_me_notification">You have %1$s unread Me!</string>
+    <string name="message_new_me_inform">Have %1$s unread Me</string>
+    <string name="message_fail_internet_connection">Error with connection. Please sign in again</string>
+    <string name="message_strong_like">Strongly like (y)</string>
+    <string name="message_first_message_of_clan_format">Write first message to clan %1$s (y)</string>
+    <string name="message_notify_block_chat_on_this_conversation">You blocked this person</string>
+    <string name="message_notify_friend_birthday">Today is birthday of %1$s</string>
+    <string name="message_notify_add_to_most_contact_ok">Added @%1$s to close friend list</string>
+    <string name="message_recommend_recovery_password">Invalid account name or password. Do you want to recover your password?</string>
+    <string name="message_tip_to_call_cse">Dial to %1$s for instructions from Ola</string>
+    <!--  -->
+    <string name="message_clan_not_belong">Clan available</string>
+    <string name="message_clan_privacy_free_post">Free to post</string>
+    <string name="message_clan_privacy_free_join">Free to join</string>
+    <string name="message_clan_privacy_verified_post">Required verification to post Me</string>
+    <string name="message_clan_privacy_verified_view_and_post">Required verification to view and post Me</string>
+    <string name="message_clan_privacy_close">Closed</string>
+    <!--  -->
+    <string name="message_clan_verified_format">Verified %1$s in Clan %2$s</string>
+    <string name="message_clan_unverified_format">Unverified %1$s in Clan %2$s</string>
+    <string name="message_change_clan_privacy_format">Changed policy of Clan %1$s</string>
+    <string name="message_delete_all_conversations_confirm">Do you want to delete all conversations</string>
+    <string name="message_delete_all_favourite_friends_confirm">Do you want to delete all close friends</string>
+    <string name="message_no_shared_uncategoried_media">No shared photo</string>
+    <string name="message_no_shared_media_album">No shared album</string>
+    <string name="message_no_media_in_album">No photo in this album</string>
+    <string name="message_send_location_to_friend_confirm">Do you want to send your location to %1$s?</string>
+    <string name="message_cannot_send_location_to_friend">Your location is not available. You cannot use this feature!</string>
+    <string name="message_advertisment_inline_perform_confirm">You will pay %1$s for this action. Do you want to continue?</string>
+    <string name="message_please_wait_me_for_phone_call">Please wait a moment! I\'m busy</string>
+    <string name="message_take_screen_shot">Just take the screenshot</string>
+    <string name="message_update_ola">Update Ola</string>
+    <string name="message_new_version">New version</string>
+    <string name="message_update_ola_promotion_content">Release NEW version Ola with many interesting features. Update NOW</string>
+    <string name="message_cannot_get_media_info">Cannot get media information</string>
+    <string name="message_last_login_time">Last login: %1$s</string>
+    <string name="message_try_ola_beta_content">Try Ola Beta</string>
+    <string name="message_kul_attached_message_hint">Enter message with Kul</string>
+    <string name="message_vip_tradding_deny_format">%1$s denies VIP transaction</string>
+    <string name="message_click_to_hide">Touch to hide</string>
+    <string name="message_click_to_resume">Touch to resume</string>
+    <string name="message_media_not_found">Media not found</string>
+    <string name="message_start_download">Start download</string>
+    <string name="message_download_when_wifi_available">Download will be started when Wifi</string>
+    <string name="message_next_download">Download next</string>
+    <string name="message_stop_download">Stop download</string>
+    <string name="message_install_video_player_require">Require install Ola Video Player</string>
+    <string name="message_post_comment_ok">Post comment OK</string>
+    <string name="message_vip_account">VIP account</string>
+    <string name="message_phone_call_confirm">Do you want to call to %1$s?</string>
+    <string name="message_please_wait_sending_sms">Sending SMS, please wait</string>
+    <string name="message_please_wait_for_registration">Registration is progressing. Please wait</string>
+    <string name="message_kill_app_confirm">Do you want to exit Ola?</string>
+    <string name="message_search_suggest_key">You search for</string>
+    <string name="message_first_me_entry_on_ola">First Me message on Ola</string>
+    <string name="message_cannot_open_box_because_not_married">Only for married person on Ola</string>
+    <string name="message_divorce_confirmation">Do you want to divorce %1$s?</string>
+    <string name="message_invite_to_join_clan">Invite all to join this clan %1$s</string>
+    <string name="message_restart_ola_after_change_language">You should restart Ola after changing language</string>
+    <string name="message_suggest_promote_products">Promote this Me</string>
+    <string name="message_deprive_clan_assistant">Do you want to deprive clan assistant %1$s?</string>
+    <string name="message_deprive_clan_supervisor">Do you want to deprive clan supervisor %1$s?</string>
+    <string name="message_snap_pic_tip">Touch and hold down to view photo</string>
+    <string name="message_adme_public_room_suggestion">You want to sell something? Why not try AdMe service to advertise your products to all public rooms!</string>
+    <string name="ola_me_slogan">Ez your relationships</string>
+    <string name="string_try_now">Try NOW</string>
+    <string name="string_send_to">Send to</string>
+    <string name="string_clan_manager">Manager</string>
+    <string name="string_clan_assistant">Assistant</string>
+    <string name="string_clan_supervisor">Supervisor</string>
+    <string name="string_visit_count">Visits</string>
+    <string name="string_view_count">views</string>
+    <string name="string_policy">Policy</string>
+    <string name="string_join">Join</string>
+    <string name="string_record_again">Record again</string>
+    <string name="string_send_marry_request">Send marriage proposal</string>
+    <string name="string_relogin">Sign in again</string>
+    <!--  -->
+    <string name="filter_flat_all">All</string>
+    <string name="filter_flat_visible">Online only</string>
+    <string name="filter_group_all">Grouped all</string>
+    <string name="filter_group_visible">Grouped online</string>
+    <string name="filter_gender_female_only">Female only</string>
+    <string name="filter_gender_male_only">Male only</string>
+    <string name="filter_gender_female_and_secret">Female and flexible</string>
+    <string name="filter_gender_male_and_secret">Male and flexible</string>
+    <string name="filter_none">Show all</string>
+
+
+    <string name="filter_show_all">Show all</string>
+    <string name="filter_media_status">Show photo status message</string>
+    <string name="filter_gender_female">Show female</string>
+    <string name="filter_gender_male">Show male</string>
+    <string name="filter_gender_flexible">Show flexible gender</string>
+    <string name="string_filter">Filter</string>
+
+    <string name="menu_close_map">Close map</string>
+    <string name="menu_show_friend_list">Friend list</string>
+    <string name="menu_show_map_full_screen">Map full screen</string>
+    <string name="menu_show_satellite_map">On satellite</string>
+    <string name="menu_hide_satellite_map">Off satellite</string>
+    <!--  -->
+
+    <string name="string_auto_join_room">Join room random</string>
+    <string name="string_you">You</string>
+    <string name="string_post_status">Post status</string>
+    <string name="string_all">All</string>
+    <string name="string_category">Category</string>
+    <string name="string_hot">Hot</string>
+    <string name="string_new">New</string>
+    <string name="string_more">View more</string>
+    <string name="string_background">Wallpaper</string>
+    <string name="string_voice_recorder">Voice record</string>
+    <string name="string_instruction">Guide</string>
+    <string name="string_alias">Alias</string>
+    <string name="button_support">Support</string>
+    <string name="string_album">Album</string>
+    <string name="string_album_name">Album name</string>
+    <string name="string_cheer">Cheer</string>
+    <string name="string_add">Add</string>
+    <string name="string_add_media">Add media</string>
+    <string name="string_add_media_to_album">Add media</string>
+    <string name="string_add_to_album">Add to album</string>
+    <string name="string_add_friend">Add friend</string>
+    <string name="string_attach_media">Attach Media</string>
+    <string name="string_attach">Attach</string>
+    <string name="string_account">Account</string>
+    <string name="string_single">Single</string>
+    <string name="string_unavaliable">Unavailalbe</string>
+    <string name="string_accept">Accept</string>
+    <string name="string_agree">Agree</string>
+    <string name="string_kul">Kul</string>
+    <string name="string_tutorial">Guide</string>
+    <string name="string_chap">Videos</string>
+    <string name="string_concern">Videos</string>
+    <!--  -->
+    <string name="string_playback">Replay</string>
+    <string name="string_stop">Stop</string>
+    <string name="string_ballance">Balance</string>
+    <!--  -->
+    <string name="string_smiley">Smiley</string>
+    <string name="string_emoji">Emoji</string>
+    <string name="string_setup_chat">Setting</string>
+    <!--  -->
+    <string name="string_change_log">New features</string>
+    <string name="string_notification">Notification</string>
+    <string name="string_change">Change</string>
+    <string name="string_change_policy">Change policy</string>
+    <string name="string_verify_clan_member">Verify member</string>
+    <string name="string_unverify_clan_member">Unverify member</string>
+    <string name="string_change_status">Change status</string>
+    <string name="string_change_background">Change wallpaper</string>
+    <string name="string_change_alias">Change alias</string>
+    <string name="string_change_group">Change group</string>
+    <string name="string_change_password">Change password</string>
+    <string name="string_clan_ola">#Ola</string>
+    <string name="string_chat">Chat</string>
+    <string name="string_chat_group">Chat group</string>
+    <string name="string_chat_whole_group">Chat whole group</string>
+    <string name="string_group_name">Group name</string>
+    <string name="string_chat_group_member">Chat group list</string>
+    <string name="string_chat_room">Chat room</string>
+    <string name="string_copy">Copy</string>
+    <string name="string_copy_plus">Copy+</string>
+    <string name="string_copy_nick">Copy nick</string>
+    <string name="string_past">Paste</string>
+    <string name="string_pause">Pause</string>
+    <string name="string_set_avatar">Set avatar</string>
+    <string name="string_set_cover">Set cover</string>
+    <string name="string_set_app_background">Set Ola wallpaper</string>
+    <string name="string_cut">Cut</string>
+    <string name="string_birthday">Birthday</string>
+    <string name="string_join_ola_date">Joined Ola since %1$s</string>
+    <string name="string_visible">Visible</string>
+    <string name="string_invisible">Invisible</string>
+    <string name="string_like_friend_list">%1$s people like this</string>
+    <string name="string_delete">Delete</string>
+    <string name="string_delete_album">Delete album</string>
+    <string name="string_delete_album_in_ola">Delete album from Ola</string>
+    <string name="string_edit_album">Edit album</string>
+    <string name="string_delete_media">Delete media</string>
+    <string name="string_delete_media_in_ola">Delete media from Ola</string>
+    <string name="string_delete_media_in_album">Delete media from album</string>
+    <string name="string_delete_vip">Delete VIP</string>
+    <string name="string_delete_me">Delete ME</string>
+    <string name="string_advertisment">Advertisement</string>
+    <string name="string_sponsor">AdMe Service</string>
+    <string name="string_suggested_apps">Suggested App</string>
+    <string name="string_suggested_post">You should share to friends</string>
+    <string name="string_view_note">View Note</string>
+    <string name="string_note_format">Note</string>
+    <string name="string_view">View</string>
+    <string name="string_already_viewed">Viewed</string>
+    <string name="string_view_tag">View Tag</string>
+    <string name="string_numver_of_view">Viewer</string>
+    <string name="string_validate">Validate</string>
+    <string name="string_view_more">View more</string>
+    <string name="string_view_comment">View comment</string>
+    <string name="string_quick_comment">Write your comment</string>
+    <string name="string_view_friends">Group list</string>
+    <string name="string_member_list">Member list</string>
+    <string name="string_room_list">Room list</string>
+    <string name="string_view_me">View ME</string>
+    <string name="string_view_share_photo">View shared photo</string>
+    <string name="string_view_clan">View Clan</string>
+    <string name="string_view_all">View all</string>
+    <string name="string_view_friend_list">Friend list</string>
+    <string name="string_view_transferred_photo">View sent photo</string>
+    <string name="string_view_info">View info</string>
+    <string name="string_clear">Clear</string>
+    <string name="string_view_vip_store">View VIP Box</string>
+    <string name="string_vip_store">VIP Box</string>
+    <string name="string_page_bookmark">Bookmark</string>
+    <string name="string_member">Member</string>
+    <string name="string_default">Default</string>
+    <string name="string_personal">Personal</string>
+    <string name="string_public">Public</string>
+    <string name="string_indicated">Indicated</string>
+    <string name="string_diary">Diary (Secret)</string>
+    <string name="string_box">Box - Marriage</string>
+    <string name="string_public_room_member">Room members</string>
+    <string name="string_camera_capture_image">Capture</string>
+    <string name="string_camera_capture_more">Take more</string>
+    <string name="string_camera_capture_again">Re-take</string>
+    <string name="string_memory">Mem card</string>
+    <string name="string_phone">Native</string>
+    <string name="string_web">Web</string>
+    <!--  -->
+    <string name="string_comment">comment</string>
+    <string name="string_comment_plural">comments</string>
+    <string name="string_comment_title">Comment</string>
+    <string name="string_comment_plural_title">Comments</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="string_cancel_select">Cancel</string>
+    <!--  -->
+    <string name="string_hide">Hide</string>
+    <string name="string_close">Close</string>
+    <string name="string_close_all">Close all</string>
+    <string name="string_delete_all">Delete all</string>
+    <string name="string_filter_gender">Filter by gender</string>
+    <string name="string_view_map">View map</string>
+    <string name="string_close_app">Close application</string>
+    <string name="string_close_conversation">Close conversation</string>
+    <string name="string_close_tab">Close tab</string>
+    <string name="string_sms_button">SMS</string>
+    <string name="string_prepaid_card_button">Prepaid card</string>
+    <string name="string_create_shortcut">Create shortcut</string>
+    <string name="string_create_gif">Create GIF</string>
+    <string name="string_ok">OK</string>
+    <string name="string_yes">Yes</string>
+    <string name="string_no">No</string>
+    <string name="string_no_save">Not saved</string>
+    <string name="string_exit">Exit</string>
+    <string name="string_get_married">Married</string>
+    <string name="string_get_married_input_hint">Enter account name</string>
+    <!--  -->
+    <string name="string_edit">Edit</string>
+    <string name="string_edit_bookmark">Edit bookmark</string>
+    <string name="string_edit_me">Post Me</string>
+    <string name="string_edit_note">Compose Note</string>
+    <string name="string_font_size">Font size</string>
+    <string name="string_back">Back</string>
+    <string name="string_bank">Bank</string>
+    <string name="string_ban_from_clan">Ban from Clan</string>
+    <string name="string_popout_balloon_chat">Balloon chat</string>
+    <string name="string_select">Select</string>
+    <string name="string_select_album">Select album</string>
+    <string name="string_select_media">Select Media</string>
+    <string name="string_done">Done</string>
+    <string name="string_select_many">Select many</string>
+    <string name="string_select_to_delete">Select to delete</string>
+    <string name="string_select_all">Select all</string>
+    <string name="string_deselect_all">Deselect all</string>
+    <string name="string_select_sound">Select audio</string>
+    <string name="string_select_conversation">Select conversation</string>
+    <string name="string_select_more">Select more</string>
+    <string name="string_select_again">Select again</string>
+    <string name="string_select_vip">Select VIP</string>
+    <string name="string_image">Photo</string>
+    <string name="string_audio">Audio</string>
+    <string name="string_Video">Video</string>
+    <string name="string_gallery">Gallery</string>
+    <string name="string_camera">Camera</string>
+    <string name="string_camera_record">Video record</string>
+    <string name="string_location">Location</string>
+    <string name="string_record">Voice record</string>
+    <string name="string_choose_pic">Select photo</string>
+    <string name="string_send">Send</string>
+    <string name="string_start">Start</string>
+    <string name="string_send_media">Send media</string>
+    <string name="string_send_me">Post Me</string>
+    <string name="string_send_message">Send message</string>
+    <string name="string_skip">Skip</string>
+    <string name="string_deny">Deny</string>
+    <string name="string_view_media">View media</string>
+    <string name="string_detail">Detail</string>
+    <string name="string_info">Information</string>
+    <string name="string_draft_me">Me draft</string>
+    <string name="string_draft_note">Note draft</string>
+    <string name="string_persional_info">Profile</string>
+    <string name="string_use_vip">Use VIP</string>
+    <string name="string_suggest">Suggest</string>
+    <string name="string_lock">Lock </string>
+    <string name="string_unlock">Unlock </string>
+    <string name="string_unlock_vip">Unlock VIP</string>
+    <string name="string_block">Block</string>
+    <string name="string_unblock">Unblock</string>
+    <string name="string_login">Log in</string>
+    <string name="string_logout">Log out</string>
+    <string name="string_exit_ola">Exit Ola</string>
+    <string name="string_login_processing">Sign in to Ola</string>
+    <string name="string_login_invisible">Invisible</string>
+    <string name="string_remember_password">Remember password</string>
+    <string name="string_price_vip">VIP price</string>
+    <string name="string_duration_vip">VIP duration</string>
+    <string name="string_buy_vip">Subcribe VIP</string>
+    <string name="string_extend_vip">Extend VIP</string>
+    <string name="string_give_vip">Send VIP</string>
+    <string name="string_give_vip_day">Send VIP duration</string>
+    <string name="string_buy_vip_day">Purchase VIP duration</string>
+    <string name="string_tradding_history">Transaction history</string>
+    <!--  -->
+    <string name="string_tradding">KEN, VIP transaction</string>
+    <string name="string_tradding_vip">VIP transaction</string>
+    <!--  -->
+    <string name="string_transfer_ken">Transfer KEN</string>
+    <string name="string_transfer_vip">VIP transaction</string>
+    <!--  -->
+    <string name="string_number_ken">KEN</string>
+    <string name="string_number_serial">Serial</string>
+    <!--  -->
+    <string name="string_marry_with">Married to</string>
+    <string name="string_marry_alone">Single</string>
+    <!--  -->
+
+    <string name="string_may_be_you_want_to_make_friend">Maybe you want to make friend</string>
+    <string name="string_may_be_you_want_to_read">Maybe you want to read</string>
+    <string name="string_related_articles">Related articles</string>
+    <string name="string_find_suggested_friend">Find friends</string>
+    <string name="string_find_now">Find now</string>
+    <string name="string_try">Try</string>
+    <string name="string_result">Result</string>
+    <string name="string_retry">Retry</string>
+    <string name="string_reply">Reply</string>
+    <string name="string_report">Report</string>
+    <string name="string_readed">Viewed</string>
+    <string name="string_edit_text">Edit</string>
+    <string name="string_porn_day">Birthday</string>
+    <string name="string_sex">Gender</string>
+    <string name="string_male">Male</string>
+    <string name="string_female">Female</string>
+    <string name="string_other">Other</string>
+    <string name="string_flexible">Flexible</string>
+    <string name="string_media_store">Media Box</string>
+    <string name="string_friend">Friends</string>
+    <string name="string_suggested_friend">Suggested friends</string>
+    <string name="string_fan">Fan</string>
+    <string name="string_clan">Clan</string>
+    <string name="string_follow">Care</string>
+    <string name="string_stop_blocking_me">Unblock Me</string>
+    <string name="string_block_me">Block</string>
+    <string name="string_bad_nick_report">Report bad account</string>
+    <string name="string_bad_media_report">Report bad media</string>
+    <string name="string_block_chat">Block</string>
+    <string name="string_stop_blocking_chat">Unblock</string>
+    <string name="string_notfollow">Stop care</string>
+    <string name="string_unfriend">Unfriend</string>
+    <string name="string_make_friend">Make friend</string>
+    <string name="string_make_friend_all">Make friend all</string>
+    <string name="string_like">Like</string>
+    <string name="string_refresh">Refresh</string>
+    <string name="string_resend">Resend</string>
+    <string name="string_register">Sign up</string>
+    <string name="string_register_account_tip">DON\'T have Ola?</string>
+    <string name="string_register_account">Sign up Ola</string>
+    <string name="string_recover_password">Recover password</string>
+    <string name="string_call_cse">Call CSE</string>
+    <string name="string_ola_term">Terms and conditions</string>
+    <string name="string_chat_setting">Chat setting</string>
+    <string name="string_history">History</string>
+    <string name="string_recent">Recent</string>
+    <string name="string_recent_me">Viewed Me(s)</string>
+    <string name="string_recent_clan">Viewed Clan(s)</string>
+    <string name="string_history_me">Viewed Me(s)</string>
+    <string name="string_add_bookmark">Add bookmark</string>
+    <string name="string_bookmark">Bookmark</string>
+    <string name="string_bookmark_title">Bookmark title</string>
+    <string name="string_delete_bookmark">Delete bookmark(s)</string>
+    <string name="string_unknown">Unknown</string>
+    <string name="string_save">Save</string>
+    <string name="string_save_rss_offline">Save offline</string>
+    <string name="string_share">Share</string>
+    <string name="string_post_me_top">Set Me Top</string>
+    <string name="string_post_me_top_clan">Set Me Top of Clan</string>
+    <string name="string_broadcast_to_clan">Boost whole Clan</string>
+    <string name="string_post_me">Post ME</string>
+    <string name="string_show_up_now">Share NOW</string>
+    <string name="string_discard_me_top">Discard Me top</string>
+    <string name="string_discard_me_top_clan">Discard Me Top of Clan</string>
+    <string name="string_me_privacy_setting">Privacy setting</string>
+    <string name="string_divorce">Divorce</string>
+    <string name="string_me_privacy_public">Public</string>
+    <string name="string_me_privacy_friend">Friends</string>
+    <string name="string_me_privacy_private">Private</string>
+    <string name="string_me_privacy_help">Guide</string>
+    <string name="string_me_privacy_setting_confirm">Do you want to apply Me privacy to %1$s</string>
+    <string name="string_me_privacy_setting_inform">Applied Me privacy to %1$s</string>
+    <string name="string_share_watting">Sharing</string>
+    <string name="string_phone_number">Phone number</string>
+    <string name="string_create">Create </string>
+    <string name="string_vetify">Verify</string>
+    <string name="string_unvetify">Discard verified</string>
+    <string name="string_create_group">Create group</string>
+    <string name="string_create_album">Create album</string>
+    <string name="string_update_album">Update album</string>
+    <string name="string_create_new">Create new</string>
+    <string name="string_create_clan">Create Clan</string>
+    <string name="string_create_conversation">Start chat</string>
+    <string name="string_invite">Invite</string>
+    <string name="string_invite_more">Invite more</string>
+    <string name="string_invite_to_groupchat">Invite to group</string>
+    <string name="string_homepage">Homepage</string>
+    <string name="string_username">Account name</string>
+    <string name="string_password">Password</string>
+    <string name="string_purchase_by_google_play">Purchase KEN by GooglePlay</string>
+    <string name="string_purchase_ken">Purchase KEN</string>
+    <string name="string_ratting">Rating</string>
+    <string name="string_final">Final</string>
+    <string name="string_finish">Finish</string>
+    <string name="string_push_to_talk">Radio</string>
+    <string name="string_register_success">		Sign up OK. Press START to Ola</string>
+    <string name="string_password_confirm">Retype your password</string>
+    <string name="string_purchase">Purchase</string>
+    <string name="string_purchase_ken_by_card">Purchase KEN by prepaid card</string>
+    <string name="string_purchase_ken_by_card_promotion">Get x1.5 for purchase KEN by prepaid card</string>
+    <string name="string_purchase_ken_by_card_advice">* DISCOUNT: Purchase KEN by prepaid card</string>
+    <string name="string_purchase_ken_by_sms">Purchase KEN by SMS</string>
+    <string name="string_purchase_ken_by_sms_confirm">You will pay %1$s VNĐ to purchase %2$s</string>
+    <string name="string_nick_receiver">Receiver account</string>
+    <string name="string_update">Update</string>
+    <string name="string_upload">Upload</string>
+    <string name="string_view_cover">View cover</string>
+    <string name="string_view_ovatar">View avatar</string>
+    <string name="string_view_clan_cover">View Clan cover picture</string>
+    <string name="string_view_clan_ovatar">View Clan profile picture</string>
+    <string name="string_change_cover">Change my cover picture</string>
+    <string name="string_change_ovatar">Change my profile picture</string>
+    <string name="string_change_clan_cover">Change Clan cover picture</string>
+    <string name="string_change_clan_ovatar">Change Clan profile picture</string>
+    <!--  -->
+    <string name="string_media_srouces">From</string>
+    <string name="string_media_created_date">Create on</string>
+    <string name="string_media_album">Album</string>
+    <string name="string_ringtone">Ringtone</string>
+    <string name="string_vibration">Vibration</string>
+    <string name="string_on">On</string>
+    <string name="string_off">Off</string>
+
+    <!--  -->
+    <string name="string_upload_media">Uploading media</string>
+    <string name="string_uploading_photo">Uploading photo</string>
+    <string name="string_customer_support">Customer support</string>
+    <!--  -->
+    <string name="general_hint_start_conversation">Enter account name</string>
+    <string name="general_hint_alias">Enter new alias</string>
+    <string name="general_hint_bookmark">Search bookmark</string>
+    <string name="general_hint_bookmark_name">Bookmark title</string>
+    <string name="general_hint_bookmark_url">Bookmark link</string>
+    <string name="general_hint_history">Search history</string>
+    <string name="general_hint_change_chat_group_alias">Enter new group name</string>
+    <string name="general_hint_status">What\'s on your mind?</string>
+    <string name="general_hint_search_me">Type account or Clan name</string>
+    <string name="general_hint_comment">Type your comment</string>
+    <string name="general_hint_comment_quick">Type your comment</string>
+    <string name="general_hint_number_serial">Enter serial on card</string>
+    <string name="general_hint_code_purchase">Enter PIN number on card</string>
+    <string name="general_hint_remind_receiver_nick">Receiver account name</string>
+    <string name="general_hint_ken_transfer_amount">Transferred KEN amount</string>
+    <string name="general_hint_ken_transfer_password">Your password</string>
+    <string name="general_hint_old_pass">Old password</string>
+    <string name="general_hint_new_pass">New password</string>
+    <string name="general_hint_pretype_pass">Re-type password</string>
+    <string name="general_hint_chat_text">Type to compose</string>
+    <string name="general_hint_search_name">Enter name</string>
+    <string name="general_hint_buddy_alias">Alias</string>
+    <string name="general_hint_group_name">Enter group name</string>
+    <string name="general_hint_note_title">Note title</string>
+    <string name="general_hint_note_content">Note content</string>
+    <string name="general_hint_me"><![CDATA[What hot today...]]></string>
+    <string name="general_hint_nick">Enter Ola account</string>
+    <string name="general_hint_create_conversation">Enter Ola account, separated by ;</string>
+    <string name="general_hint_clan">Enter Clan name</string>
+    <string name="general_hint_password_lenght">At least 6 letters</string>
+    <string name="general_hint_search">Type keywords</string>
+    <string name="general_hint_capcha">Re-type the content from picture</string>
+    <!--  -->
+    <string name="string_search">Search</string>
+    <string name="string_unit_seconds">Second</string>
+    <string name="string_unit_minute">Minute</string>
+    <string name="string_unit_hours">Hour</string>
+    <string name="string_unit_day">Date</string>
+    <string name="string_unit_month">Month</string>
+    <string name="string_unit_year">Year</string>
+    <!--  -->
+    <string name="string_login_name">Account name</string>
+    <string name="string_card_type">Card type</string>
+    <string name="string_code_purchase">PIN number</string>
+    <string name="string_join_clan">Join Clan</string>
+    <string name="string_quit">Quit</string>
+    <string name="string_quit_clan">Quit Clan</string>
+    <string name="string_rename">Rename</string>
+    <string name="string_change_topic">Change topic</string>
+    <string name="string_rename_group">Rename group</string>
+    <string name="string_rename_chat_group">Rename chat group</string>
+    <string name="string_setup">Settings</string>
+    <string name="string_setup_vice_president">Grant Supervisor</string>
+    <string name="string_setup_messenger">Grant Clan messenger</string>
+    <string name="string_quit_group">Leave group</string>
+    <string name="string_balloon_chat_on">Balloon chat (On)</string>
+    <string name="string_balloon_chat_off">Balloon chat (Off)</string>
+    <string name="string_balloon_chat">Balloon chat</string>
+    <string name="string_quit_room">Quit room</string>
+    <string name="string_quit_chat_room">Broadcast off</string>
+    <string name="string_delete_conversation">Delete conversation</string>
+    <string name="string_reload_archived_message">Reload messages</string>
+    <string name="string_take_screen_shot">Screenshot</string>
+    <string name="string_turn_off_suggestion">Turn off suggestion</string>
+    <string name="string_turn_off">Turn off</string>
+    <string name="string_more_action">More actions</string>
+    <!--  -->
+    <string name="string_transaction">Transaction</string>
+    <!--  -->
+    <string name="general_load_form_info"><![CDATA[Please wait...]]></string>
+    <string name="string_download">Download</string>
+    <string name="string_install">Install</string>
+    <string name="string_confirm">Confirmation</string>
+    <string name="string_ola_media">Ola Media</string>
+    <string name="string_ola_friend">Ola</string>
+
+    <!-- vip block -->
+    <string name="vip_lable_ken_price_format">%1$s KEN for %2$s day(s)</string>
+    <string name="vip_lable_sms_price_format">%1$s VNĐ for %2$s day(s)</string>
+    <string name="exit_confirm">Press back again to exit Ola</string>
+
+    <!-- dialog title block -->
+    <string name="dialog_title_sdcard_media_picker">Select media from device</string>
+    <string name="dialog_title_inform">Inform</string>
+    <string name="dialog_title_new_released">New FREE game</string>
+    <string name="dialog_title_confirm">Confirmation</string>
+    <string name="dialog_title_fail">Error</string>
+    <string name="dialog_title_update_version">Update</string>
+    <string name="dialog_title_view_mode">Filter mode</string>
+    <string name="dialog_title_group_name_input">Enter group name</string>
+    <string name="dialog_title_delete_conversation">Delete conversation</string>
+    <string name="dialog_title_delete_draft_me">Delete Me draft</string>
+    <string name="dialog_title_delete_conversation_history">Delete conversions</string>
+    <string name="dialog_title_forgot_password">Forgot password</string>
+
+    <!--  -->
+    <string name="message_ola_username">Ola account</string>
+    <string name="button_group">Group</string>
+
+    <!-- ola tab name block -->
+
+    <string name="general_tab_translater">Translator</string>
+    <string name="general_tab_conversation">Conversations</string>
+    <string name="general_tab_publicroom">Chat room</string>
+    <string name="general_tab_me">Me</string>
+    <string name="general_tab_ola_me">Ola Me</string>
+    <string name="general_tab_app">Applications</string>
+    <string name="general_tab_me_comment">Comment</string>
+    <string name="general_tab_me_edit">Post Me</string>
+    <string name="general_tab_diary_edit">Write Diary</string>
+    <string name="general_tab_box_edit">Box - Marriage</string>
+    <string name="general_tab_contact">Contacts</string>
+    <string name="general_tab_friend_list">Friends</string>
+    <string name="general_tab_chat">Chat</string>
+    <string name="general_tab_camera">Camera</string>
+    <string name="general_tab_find_friend">Find friends</string>
+    <string name="general_tab_rss">Rss</string>
+    <string name="general_tab_ola_mall">Ola Mall</string>
+    <string name="general_tab_osimi">Osimi</string>
+    <string name="general_tab_horoscope">Horoscope</string>
+    <string name="general_tab_notify">Notifications</string>
+    <string name="general_tab_note">Note</string>
+    <string name="general_tab_mediastore">Photos</string>
+    <string name="general_tab_vipstore">VIP Box</string>
+    <string name="general_tab_kenstore">KEN</string>
+    <string name="general_tab_setting">Settings</string>
+    <string name="general_tab_birthday">Birthday</string>
+    <string name="general_tab_personal">Profile</string>
+    <string name="general_tab_web_app">Web App</string>
+    <string name="general_tab_friend_location">Friends nearby</string>
+    <string name="general_tab_find_neighbor">Neighbor</string>
+    <string name="general_tab_voice_record">Voice record</string>
+    <string name="general_tab_adme">AdMe</string>
+    <string name="general_tab_game_store">Game Box</string>
+    <string name="general_tab_post_adme">Create Ad</string>
+
+    <!-- app setting string block -->
+    <string name="title_general_setting">General</string>
+    <string name="title_display_setting">Display</string>
+    <string name="title_notify_setting">Notification</string>
+    <string name="title_contact_setting">Contact</string>
+    <string name="title_chat_setting">Chat</string>
+    <string name="title_me_setting">Me</string>
+    <string name="title_rss_setting">Rss</string>
+    <string name="title_ola_rating">Rating</string>
+    <string name="title_ola_beta">Ola Beta</string>
+    <string name="title_ola_info">About Ola</string>
+    <string name="title_contact_picker">Contact list</string>
+    <string name="title_contact_sync_suggest">Suggested friends</string>
+    <string name="title_create_coversation">Chat to</string>
+    <string name="title_input_alias">Enter alias</string>
+    <string name="title_create_chat_group">Create chat group</string>
+
+    <!-- =============== -->
+    <string name="title_chat_rintone_notification">Ringtone</string>
+    <string name="sum_chat_rintone_notification">Play ringtone for new events</string>
+    <string name="setting_general_show_avatar_title">Show avatar</string>
+    <string name="setting_general_show_avatar_summary">Show avatar of your friends</string>
+    <string name="setting_chat_show_message_content_title">Message content</string>
+    <string name="setting_chat_show_message_content_summary">Show message content on notification bar</string>
+    <string name="setting_chat_show_sender_id_title">Message sender</string>
+    <string name="setting_chat_show_sender_id_summary">Show name and account of message sender</string>
+    <string name="setting_chat_allow_shake_ola_title">Shake to Ola!!!</string>
+    <string name="setting_chat_allow_shake_ola_summary">Shake device to send Ola!!!</string>
+    <string name="setting_chat_allow_inform_busy_title">Send busy</string>
+    <string name="setting_chat_allow_inform_busy_summary">Send busy for incomming call while chatting</string>
+    <string name="title_chat_vibrate_notification">Vibration</string>
+    <string name="sum_chat_vibrate_notification">Vibrate for new events</string>
+    <string name="sum_language_setting">Displayed language</string>
+    <string name="setting_led_notification_title">Light</string>
+    <string name="setting_locked_screen_notification_title">Quick notification</string>
+    <string name="setting_led_notification_summary">Flashing LED for new events</string>
+    <string name="setting_locked_screen_notification_summary">Show notifications on locked screen</string>
+    <string name="setting_general_auto_full_screen_title">Auto fullscreen</string>
+    <string name="setting_general_auto_full_screen_summary">Auto hide top bar and bottom bar while scrolling</string>
+    <string name="setting_general_play_video_mode_title">Play video</string>
+    <string name="setting_general_play_video_mode_summary">Play video view mode</string>
+    <string name="setting_general_show_device_type_title">Display device</string>
+    <string name="setting_general_show_device_type_summary">Display device which your friends are using</string>
+    <string name="setting_general_show_gender_icon_title">Display gender</string>
+    <string name="setting_general_show_gender_icon_summary">Display gender of friends</string>
+    <string name="setting_new_me_notification_enable_title">Notify unread Me</string>
+    <string name="setting_new_me_notification_enable_summary">Notify unread Me on your timeline</string>
+    <string name="setting_message_appearance_animation_title">Message visual effect</string>
+    <string name="setting_message_appearance_animation_summary">Visual effect for displaying messages</string>
+    <string name="setting_version_code">Code</string>
+    <string name="setting_version_name">Version</string>
+    <string name="setting_protocol_code">Protocol</string>
+    <string name="setting_distro">Distro</string>
+    <string name="setting_version_released_date">Released date</string>
+    <string name="setting_version_support_phone_number">Support phone number</string>
+    <string name="setting_typing_suggestion_enable_title">Typing suggestion</string>
+    <string name="setting_typing_suggestion_enable_summary">Suggest nick, clan when type @ or #</string>
+    <string name="setting_rss_layout_type_title">Layout</string>
+    <string name="setting_rss_layout_type_summary">Rss layout</string>
+    <string name="setting_rss_save_history_title">Remember Rss history</string>
+    <string name="setting_rss_font_size_title">Font size</string>
+    <string name="setting_rss_font_size_summary">Rss font size</string>
+    <!-- =============== -->
+    <string name="title_language_setting">Language</string>
+    <string name="title_contact_filter">Contact list filter</string>
+    <string name="string_emoji_ola">Ola</string>
+    <string name="string_emoji_emotion">Emotion</string>
+    <string name="string_emoji_miscellaneous">Life</string>
+    <string name="string_emoji_symbol">Symbol</string>
+    <string name="string_emoji_others">Others</string>
+    <string name="string_help_faq">FAQ</string>
+    <string name="string_help_using_ola">Ola user guide</string>
+    <string name="string_help_bc_commands">Clan Manager commands</string>
+    <string name="string_require_captcha_dialog_title">Type verify code</string>
+    <string name="string_require_captcha_dialog_message">Type the displayed content</string>
+    <string name="string_wrong_captcha_dialog_message">Wrong validation code. Please type exactly what you see on image</string>
+    <string name="system_me_diary">Diary</string>
+    <string name="system_me_box">Box - Marriage</string>
+    <string name="system_me_box_with">Married to %1$s</string>
+    <string name="system_me_funny">Funny</string>
+    <string name="system_me_likes">Liked Me</string>
+    <string name="system_me_eggy">Eggy</string>
+    <string name="string_music_ola">From Ola</string>
+    <string name="string_listen">Listen</string>
+    <string name="string_continue">Continue</string>
+    <string name="string_call">Call</string>
+    <string name="string_play_demo">Play demo</string>
+    <string name="string_play_now">Play NOW</string>
+    <string name="string_dont_show_again">Do not show again</string>
+    <string name="string_manage_clan">Manage Clan</string>
+    <string name="string_clan_info">Manage Clan</string>
+    <string name="string_clan_profile">Clan Profile</string>
+    <string name="string_add_to_group">Add to group</string>
+    <string name="string_type_your_report_to_ola">Type your report</string>
+    <string name="string_reload">Reload</string>
+    <string name="string_time_second">Second</string>
+    <string name="string_time_second_plural">Seconds</string>
+    <string name="string_what">What ?</string>
+    <string name="string_do">What doing?</string>
+    <string name="string_what_are_you_doing">What are you doing?</string>
+    <string name="string_you_are_staying_at">You are staying at</string>
+    <string name="string_touch_to_check_in">Touch to check in</string>
+    <string name="string_touch_to_select_action">Touch to select action</string>
+    <string name="string_where">Where ?</string>
+    <string name="string_check_in">Check in</string>
+    <string name="string_create_venue">Create venue</string>
+    <string name="string_venue_name">Venue name</string>
+    <string name="string_address">Address</string>
+    <string name="string_description">Description</string>
+    <string name="string_familiar">Familiar :</string>
+    <string name="string_loading_check_in_action_fail">Loading action of check in fail!</string>
+    <string name="string_loading_check_in_venue_fail">Loading venue fail!</string>
+    <string name="string_loading_check_in_item_fail">Loading item of check in fail!</string>
+    <string name="string_create_to_check_in_item_fail">Create to item of check in fail!</string>
+    <string name="string_create_to_venue_fail">Create to venue fail!</string>
+    <string name="string_loading_venue_detail_fail">Loading venue detail fail!</string>
+    <string name="string_loading_me_list_fail">Loading me list fail!</string>
+    <string name="string_prepare_check_in_fail">Prepare check in fail!</string>
+    <string name="string_loading_check_in_info_fail">Loading check in info fail!</string>
+    <string name="string_update_venue_info_fail">Update venue infomation fail!</string>
+    <string name="string_distance">Distance: </string>
+    <string name="string_checkins">check-in</string>
+    <string name="string_show_direction">*Press and hold to show direction</string>
+    <string name="string_select_icon">Select icon</string>
+    <string name="string_have_not">No</string>
+    <string name="string_being"></string>
+    <string name="string_at">at</string>
+    <string name="string_turn_off_locked_screen_notification">(Turn off quick notification)</string>
+    <string name="string_turn_on_location_services">Turn on Location Services</string>
+    <string name="string_to_use_this_feature_location_services_must_be_on">To use this feature, location services must be on</string>
+    <string name="string_check_in_nearby_venues">Nearby places</string>
+    <string name="general_tab_nearby_places">Nearby places</string>
+    <string name="message_invite_to_game_caro_request">Invite you to play Caro</string>
+    <string name="message_my_friend_left_caro_game">My friend left Caro game</string>
+    <string name="string_caro_game">Caro game</string>
+    <string name="string_sending_a_caro_game_invitation">Sending a Caro game invitation</string>
+    <string name="string_reject_a_caro_game_invitation">Rejected my a Caro game invitation</string>
+    <string name="string_accept_a_caro_game_invitation">Accepted my a Caro game invitation</string>
+    <string name="string_play">Play</string>
+    <string name="message_do_you_want_to_quit_game">Do you want to quit game?</string>
+    <string name="message_play_again">Play again?</string>
+    <string name="message_reject_play_game_again">Rejected play game again!</string>
+    <string name="message_accept_play_game_again">Accepted play game again!</string>
+    <string name="message_you_win_and_play_again">You win and play game again?</string>
+    <string name="message_you_lose_and_play_again">You lose and play game again?</string>
+    <string name="string_contacts">Contacts</string>
+
+    <!-- -========================================================= -->
+    <string-array name="setting_popup_message_entry">
+        <item>Show as balloon chat</item>
+        <item>Show as notification</item>
+        <item>No display</item>
+    </string-array>
+    <string-array name="setting_popup_message_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_ola_app_wallpaper_entry">
+        <item>Default</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="setting_ola_app_wallpaper_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="setting_me_display_contact_style_entry">
+        <item>Show account name</item>
+        <item>Show alias</item>
+    </string-array>
+    <string-array name="setting_me_display_contact_style_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="privacy_lable">
+        <item>Public</item>
+        <item>Friends</item>
+        <item>Private</item>
+    </string-array>
+    <string-array name="time_label">
+        <item> just moment</item>
+        <item> second ago</item>
+        <item> minute ago</item>
+        <item> hour ago</item>
+        <item> yesterday</item>
+        <item> week ago</item>
+        <item> month ago</item>
+        <item> year ago</item>
+    </string-array>
+    <string-array name="time_label_plural">
+        <item> just moment</item>
+        <item> seconds ago</item>
+        <item> minutes ago</item>
+        <item> hours ago</item>
+        <item> yesterday</item>
+        <item> weeks ago</item>
+        <item> months ago</item>
+        <item> years ago</item>
+    </string-array>
+    <string-array name="date_label">
+        <item> At</item>
+        <item> Monday</item>
+        <item> Tuesday</item>
+        <item> Wednesday</item>
+        <item> Thursday</item>
+        <item> Friday</item>
+        <item> Saturday</item>
+        <item> Sunday</item>
+        <item> today</item>
+        <item> yesterday</item>
+        <item> 2 days ago</item>
+    </string-array>
+    <string-array name="entry_contact_filter">
+        <item>Show all</item>
+        <item>Show online </item>
+        <item>Grouped all</item>
+        <item>Grouped online</item>
+    </string-array>
+    <string-array name="values_contact_filter">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="entry_language_setting">
+        <item>Device language</item>
+        <item>Tiếng Việt </item>
+        <item>English</item>
+    </string-array>
+    <string-array name="values_language_setting">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- =============== -->
+
+    <string name="dialog_title_auto_load_image">Auto load photo</string>
+    <string name="title_auto_load_image">Auto load photo</string>
+
+    <string-array name="entry_auto_load_image">
+        <item>Always</item>
+        <item>Only Wifi</item>
+        <item>Only Wifi hoặc 3G</item>
+        <item>Off (save)</item>
+    </string-array>
+    <string-array name="values_auto_load_image">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="entry_message_appearance_animation">
+        <item>No effect</item>
+        <item>Fade-in</item>
+        <item>Flying</item>
+    </string-array>
+    <string-array name="values_message_appearance_animation">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entry_ovatar_style">
+        <item>Show VIP</item>
+        <item>Avatar</item>
+        <item>Circle</item>
+        <item>Rounded</item>
+        <item>Heart</item>
+    </string-array>
+    <string-array name="values_ovatar_style">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="entry_ringtone_mode">
+        <item>On</item>
+        <item>Off</item>
+        <item><![CDATA[Silent 12:00 - 13:30]]></item>
+        <item><![CDATA[Silent 22:00 - 6:30]]></item>
+        <item><![CDATA[Silent 12:00 - 13:30 and 22:00 - 6:30]]></item>
+        <item><![CDATA[Silent 08:00 - 18:00]]></item>
+    </string-array>
+    <string-array name="values_ringtone_mode">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="entry_vibration_mode">
+        <item>On</item>
+        <item>Off</item>
+        <item><![CDATA[Silent 12:00 - 13:30]]></item>
+        <item><![CDATA[Silent 22:00 - 6:30]]></item>
+        <item><![CDATA[Silent 12:00 - 13:30 and 22:00 - 6:30]]></item>
+        <item><![CDATA[Silent 08:00 - 18:00]]></item>
+    </string-array>
+    <string-array name="values_vibration_mode">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="entry_me_notification_mode">
+        <item>On</item>
+        <item>Off</item>
+        <item><![CDATA[Silent 12:00 - 13:30]]></item>
+        <item><![CDATA[Silent 22:00 - 6:30]]></item>
+        <item><![CDATA[Silent 12:00 - 13:30 and 22:00 - 6:30]]></item>
+        <item><![CDATA[Silent 08:00 - 18:00]]></item>
+    </string-array>
+    <string-array name="values_me_notification_mode">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="entry_play_video_mode">
+        <item>Floating window</item>
+        <item>Full screen</item>
+    </string-array>
+    <string-array name="values_play_video_mode">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="setting_rss_layout_type_entry">
+        <item>Default</item>
+        <item>Details</item>
+        <item>Picture</item>
+        <item>Magazine</item>
+        <item>Mix</item>
+    </string-array>
+    <string-array name="setting_rss_layout_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="entry_web_browser_setting">
+        <item>Ola</item>
+        <item>Device</item>
+    </string-array>
+    <string-array name="values_web_browser_setting">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="string.tutorial.newbie.setup.avatar.title">Setup profile picture</string>
+    <string name="string.tutorial.newbie.setup.avatar.hint">Crop the photo to show your face clearly in order for your friends can realize you on Ola</string>
+    <string name="string.tutorial.newbie.setup.cover.title">Setup cover picture</string>
+    <!--  -->
+    <string name="tutorial_pull_from_left">Swipe to right from edge to open left side menu</string>
+    <string name="tutorial_pull_from_right">Swipe to left from edge to open right side menu</string>
+    <!--  -->
+    <string name="tutorial_rss_pull_right">Swipe to right for previous page</string>
+    <string name="tutorial_rss_pull_left">Swipe to left for next page</string>
+    <!--  -->
+    <string name="tutorial_rss_pull_from_edge_to_right">Swipe to right from edge to open bookmark list</string>
+    <string name="tutorial_rss_pull_from_edge_to_left">Swipe to left from edge to open history list</string>
+    <!--  -->
+    <string name="tutorial_chatting_view_pull_from_left">Swipe to right from edge to open conversation list</string>
+    <string name="tutorial_chatting_view_pull_from_right">Swipe to right from edge to open member list of chat room in which you are</string>
+    <string name="tutorial_push_to_talk">PRESS and HOLD radio icon to send voice message</string>
+    <string name="tutorial_snap_pic">Take photo and send to friends. They can view only once time after a few seconds</string>
+    <!--  -->
+    <string name="tutorial_rss_touch_to_change_search_type">Touch to change search content type</string>
+    <string name="string_news">News</string>
+    <string name="string_fiction">Fictions</string>
+    <string name="string_note">Notes</string>
+    <string name="string_direct">Direct</string>
+    <string name="string_visit">Visit</string>
+    <string name="setting_general_choice_web_browser_mode_title">Choice browser</string>
+    <string name="setting_general_choice_web_browser_mode_summary">Choice browser for opening website</string>
+    <string name="string_login_facebook_account">Sign in by Facebook</string>
+    <string name="message_join_ola_community">Join Ola community with 20 millions users!</string>
+    <string name="string_like_plural">likes</string>
+    <string name="string_people_care">people care</string>
+    <string name="message_join_us_on_facebook">Press LIKE to join us on Facebook</string>
+    <string name="string_last_image_on_device">Select photo to post Me</string>
+    <string name="string_me_post_to">Post to: %1$s</string>
+    <string name="message_add_friend_to_group">Just added @%1$s to group \"%2$s\"</string>
+    <string name="string_dislike">Dislike</string>
+    <string name="string_link_facebook_account">Link to Facebook account</string>
+    <string name="string_login_by_facebook_account_error">Error! Sign in by Facebook</string>
+    <string name="string_facebook_account_invalid">Facebook is invalid!</string>
+    <string name="string_register_account_by_facebok">Create new nick</string>
+    <string name="string_unlink_facebook_account">Unlink to Facebook account</string>
+    <string name="message_spam_warning_on_chat">You can MAKE FRIEND with this person or BLOCK if he or she is impolite</string>
+    <string name="string_suggested_rss">News</string>
+    <string name="string_buddy_is_not_exist">Account is not exist!</string>
+    <string name="string_invite_friend">Invite friends</string>
+    <string name="invite">Invite</string>
+    <string name="message_sms_content_invite_ola">Check out Ola for your phone! Download it today from http://lnk.vn/ola</string>
+    <string name="string_more_photos_of">More photos of %1$s</string>
+    <string name="tutorial_swipe_right_to_close">Swipe right to close</string>
+    <string name="message_map_loading">Map is loading. Please wait</string>
+    <string name="string_favorite_chat_room">Favorite chat room</string>
+    <string name="string_do_you_want_to_quit_room">Do you want to quit room \"%1$s\"?</string>
+    <string name="string_unread_messages">unread messages!</string>
+    <string name="string_chat_in_room">Broadcast</string>
+    <string name="string_auto">Auto</string>
+    <string name="string_chatting">Chat to</string>
+    <string name="string_chatting_group">Chat to \"%1$s group\"</string>
+    <string name="string_chatting_room">Chat to \"%1$s room\"</string>
+    <string name="string_members">Members</string>
+    <string name="string_room_not_support_broadcast_message">\"%1$s\" room does not support broadcast message</string>
+    <string name="string_unlink_facebook_accout_fail">Fail, unlink Facebook account!!</string>
+    <string name="string_confirm_unlink_facebook_accout">Do you want to unlink Facebook account?</string>
+    <string name="string_free">FREE</string>
+    <string name="string_install_upcase">INSTALL</string>
+    <string name="tutorial_pull_from_left_show_room_list">Swipe to right from edge to open left side room list menu</string>
+    <string name="string_enter_chat_room">Join chat room</string>
+    <string name="string_publishig_to_facebook">Post to Facebook</string>
+    <string name="string_delete_all_stranger">Delete all strangers</string>
+    <string name="string_delete_all_stranger_convsations_confirm">Do you want to delete all stranger conversations?</string>
+    <string name="string_phone_number_input">Phone number input</string>
+
+    <!--  -->
+    <string name="string_tab_messages_title">MESSAGES</string>
+    <string name="string_tab_chat_group_title">CHAT GROUP</string>
+    <string name="string_tab_friends_title">FRIENDS</string>
+    <string name="string_tab_suggest_title">SUGGEST</string>
+    <string name="string_tab_suggest_from_contacts_title">PHONE CONTACTS</string>
+    <!--  -->
+    <!--  -->
+    <string name="string_tab_me_new">NEW ME</string>
+    <string name="string_tab_me_reply">REPLY</string>
+    <string name="string_tab_me_media">PUBLIC</string>
+    <string name="string_tab_me_clan">ME CLAN</string>
+    <string name="string_tab_utility">UTILITY</string>
+    <string name="string_tab_utility_summary">SUMMARY</string>
+    <string name="string_tab_utility_notify">NOTIFICATIONS</string>
+    <string name="string_tab_utility_all">ALL</string>
+
+    <string-array name="message_like_this_game">
+        <item>Like this Game\n%1$s\nIf you want to play with me, you can download at</item>
+        <item>Game %1$s is great!\nShare to my friends, you can download at</item>
+    </string-array>
+    <string-array name="entry_spinner_contact_filter">
+        <item>Show all</item>
+        <item>Show online </item>
+    </string-array>
+
+    <string name="string_new_friends">New friends</string>
+    <string name="string_ola_info">Ola info</string>
+    <string name="string_other_conversations">Others</string>
+    <string name="string_typing">Typing...</string>
+    <string name="string_blocked_list">Blocked list</string>
+    <string name="string_peole">people</string>
+    <string name="string_person">person</string>
+    <string name="general_tab_room">Rooms</string>
+    <string name="general_tab_news">News</string>
+    <string name="general_tab_more">More</string>
+    <string name="string_do_you_make_friend_with">Do you want to make friend with %1$s ?</string>
+    <string name="string_chat_group_description">Chat to friends as group</string>
+    <string name="string_around_you">Around you</string>
+    <string name="string_around_you_description">Find all people who are around you</string>
+    <string name="message_fail_send_message">Send message fail</string>
+
+    <string name="string_vip_duration">VIP duration</string>
+    <string name="general_hint_vip_price_in_ken">Enter VIP price in KEN</string>
+    <string name="general_hint_vip_duration_in_day">Enter VIP duration in day</string>
+    <string name="string_vip_price">VIP Price</string>
+    <string name="string_reselect_vip">Re-select VIP</string>
+    <string name="string_selected_vip">Selected VIP</string>
+    <string name="string_receiver">Receiver</string>
+    <string name="string_delete_something_confirm">Do you want to delete %1$s?</string>
+    <string name="string_utilities">Utilities</string>
+    <string name="message_receive_photo_chatgroup">%1$s: %2$s sent photo</string>
+    <string name="message_receive_sound_chatgroup">%1$s: %2$s sent sound</string>
+    <string name="message_receive_video_chatgroup">%1$s: %2$s sent video</string>
+    <string name="message_receive_text_chatgroup">%1$s: %2$s sent message</string>
+    <string name="message_receive_message_single">%1$s sent messages</string>
+    <string name="string_sticker">Sticker</string>
+    <string name="string_vip_account">VIP account</string>
+    <string name="string_normal_account">Normal account</string>
+    <string name="string_age">Age</string>
+    <string name="message_account_not_have_phonenumber">Please register your phone number</string>
+    <string name="message_account_not_lock_phonenumber">Please lock your account to phone number</string>
+    <string name="message_invite_to_chatgroup">Invite to chat group</string>
+    <string name="message_fail_create_chat_group">Cannot create chat group</string>
+    <string name="message_join_chatgroup">Join chat group</string>
+    <string name="string_day">Day</string>
+    <string name="string_days">Days</string>
+    <string name="message_watting_answer">Waiting answer</string>
+    <string name="string_denied">Denied</string>
+    <string name="string_transaction_finished">Transaction done!</string>
+    <string name="message_retype_the_price">Re-type the price</string>
+    <string name="message_please_enter_correct_the_vip_price">Please enter the VIP price correctly</string>
+    <string name="message_transaction_timeout">Transaction timeout</string>
+    <string name="string_auto_join_room_description">We will help you to choose the avaible chat room quickly</string>
+    <string name="message_purchase_ken_tip">Purchase KEN for using some fantastic features</string>
+    <string name="string_status">Status</string>
+    <string name="message_chat_blocking_warning">You blocked this person. You need to unblock her/him before chatting</string>
+    <string name="message_mall_introduction">Diverse video clips collected by editors</string>
+    <string name="string_notified_applications">Notified applications</string>
+    <string name="message_the_best_game_for_you">The BEST games for you</string>
+    <string name="message_chat_typing_message"><![CDATA[Typing...]]></string>
+    <string name="string_undo">Undo</string>
+    <string name="hint_enter_username_or_fullname">Enter nick or name</string>
+    <string name="hint_enter_username_fullname_or_phonenumber">Enter nick, name or phone number</string>
+    <string name="message_checking_account">Checking account</string>
+    <string name="message_fail_post_me_by_uploading">Some photos cannot be uploaded</string>
+    <string name="string_to_colon"><![CDATA[To:]]></string>
+    <string name="message_camera_opening"><![CDATA[Camera is opening...]]></string>
+    <string name="message_voice_recording_cancel_tip">To cancel, drag your finger out Record</string>
+    <string name="message_voice_recording_release_cancel">Release finger to cancel recording</string>
+    <string name="message_voice_recording_fail">Voice recorder error. You might need to close app or restart your phone and try again.</string>
+    <string name="string_post">Post</string>
+    <string name="string_share_your_mind">Share your mind</string>
+
+    <string name="string_public_every_one_can_see">Public - To public\'s timeline</string>
+    <string name="string_friends_only_your_friends_can_see">Friends - To your friends\'s timeline</string>
+    <string name="string_indicated_visible_to_tag_people">Indicated - To timeline of tagged people or clans</string>
+    <string name="string_box_to_your_marriage_diary">Box - To your marriage diary</string>
+    <string name="string_diary_to_private_diary">Diary - Only you can see</string>
+    <string name="string_turn_on_gps">Turn on GPS</string>
+    <string name="string_already_friend">Friends</string>
+    <string name="string_following">Following</string>
+    <string name="message_add_new_sticker_to_recent_list">Added sticker to your recent list</string>
+    <string name="string_send_your_location">Send your location</string>
+    <string name="string_send_vip_days">Send VIP days</string>
+    <string name="string_write_a_message_to">Write a message to</string>
+    <string name="string_write_a_message_group">Write a message to \"%1$s group\"</string>
+    <string name="string_write_a_message">Write a message</string>
+    <string name="string_write_a_message_room">Write a message to \""%1$s room\"</string>
+    <string name="string_broadcasting_members">Broadcasting members</string>
+    <string name="message_uploading_in_progress"><![CDATA[Uploading in progress...]]></string>
+    <string name="message_downloading_in_progress"><![CDATA[Downloading in progress...]]></string>
+    <string name="message_photo_size_too_large">Photo size too large</string>
+    <string name="message_upload_fail">Upload fail!</string>
+    <string name="string_please_wait">Please wait</string>
+    <string name="message_changing_app_background">Changing Ola wallpaper</string>
+    <string name="string_select_photo">Select photo</string>
+    <string name="string_select_app_to_crop">Select app to crop</string>
+    <string name="string_take_from_camera">Take from Camera</string>
+    <string name="string_select_from_gallery">Select from Gallery</string>
+    <string name="message_cropping_picture"><![CDATA[Cropping picture...]]></string>
+    <string name="string_sent">Sent</string>
+    <string name="string_delivered">Delivered</string>
+    <string name="string_seen">Seen</string>
+    <string name="string_on_apple">on iPhone</string>
+    <string name="string_on_android">on Android</string>
+    <string name="string_on_windows_phone">on Windows Phone</string>
+    <string name="string_on_mobile">on mobile</string>
+    <string name="string_on_web">on Web</string>
+    <string name="string_active">Active</string>
+    <string name="message_fail_too_large_image_size">Too large image size</string>
+    <string name="message_fail_too_large_file_size">Too large file size</string>
+    <string name="message_fail_unsupported_format">Unsupported this format</string>
+    <string name="string_revoke">Revoke</string>
+    <string name="string_set_conversation_wallpaper">Change conversation wallpaper</string>
+    <string name="string_change_clear_conversation_wallpaper">Change conversation wallpaper</string>
+    <string name="string_clear_conversation_wallpaper">Clear conversation wallpaper</string>
+    <string name="message_changing_chat_background">Changing conversation background</string>
+    <string name="string_online">Online</string>
+    <string name="string_enter_ken_transaction_info">Enter KEN transaction info</string>
+    <string name="string_transferred_ken_amount">Transferred KEN amount</string>
+    <string name="string_select_vip_icon_for_tradding">Select VIP icon for tradding</string>
+    <string name="string_transaction_info">Transaction info</string>
+    <string name="string_forgot_pass_tip">Forgot password?</string>
+    <string name="string_linked_account_list">Linked accounts</string>
+    <string name="string_get_started">Get Started</string>
+    <string name="hint_verify_phone_number_to_protect_your_account">Verify phone number to use full features and protect your account</string>
+    <string name="hint_enter_set_your_password">Enter password to protect your account</string>
+    <string name="string_find_around_you">Find around you</string>
+    <string name="string_next">Next</string>
+    <string name="string_verify">Verify</string>
+    <string name="message_username_available">Nick name is available</string>
+    <string name="string_already_have_account">Already have an account?</string>
+    <string name="string_already_have_account_confirm">Continue sign up or login to existing account?</string>
+    <string name="string_what_is_your_phone">What\'s Your Phone?</string>
+    <string name="string_enter_phone">Enter your phone</string>
+    <string name="string_phone_number_protect_hint_1">Enter exactly your using phone number to protect your account in case you forgot the password or someone intrude to your account</string>
+    <string name="string_phone_number_protect_hint_2">Enter exactly phone number on this device to protect your account in case you forgot the password or someone intrude to your account</string>
+    <string name="hint_enter_nick_name_you_want_to_create">Enter nick name you want</string>
+    <string name="string_nick_hint">Required more than 6 letters and no special characters. Using the meaning nick name makes it easier to remember. Any violence to our terms and conditions is not allowed</string>
+    <string name="message_fail_username_not_start_by_non_letter">First letter cannot be spcial letter or number</string>
+    <string name="string_enter_password">Enter your password and remember it</string>
+    <string name="string_enter_pass_code">Enter Passcode</string>
+    <string name="string_enter_old_pass_code">Enter your old passcode</string>
+    <string name="string_reenter_passcode">Re-enter Passcode</string>
+    <string name="string_set_pass_code">Set Passcode</string>
+    <string name="string_first_and_last_name">First and last name</string>
+    <string name="string_optional">Optional</string>
+    <string name="string_date">Date</string>
+    <string name="string_month">Month</string>
+    <string name="string_year">Year</string>
+    <string name="string_verification_code">Verification code</string>
+    <string name="string_enter_verification_code">Enter verification code</string>
+    <string name="message_fail_please_enter_verification_code">Please enter the verification code</string>
+    <string name="message_fail_wrong_verification_code">Wrong verification code. Please enter again exactly</string>
+    <string name="string_required">Required</string>
+    <string name="string_your_profile_info">Your profile info</string>
+    <string name="message_you_need_set_your_gender">You need to set your gender</string>
+    <string name="hint_enter_exactly_the_number_above">Enter exactly the number above</string>
+    <string name="hint_enter_captcha_to_prove_not_robot">Look and enter exactly the number in image in order to prove that you are not the robot</string>
+    <string name="string_enter_username">Enter your nick name</string>
+    <string name="string_password_hint">Required more than 6 characters. Set the strong password to protect your account to avoid others intrude. You can reset the password by phone number you registered to Ola</string>
+    <string name="string_select_country">Select country</string>
+    <string name="title_ringtone_sound">Ringtone sound</string>
+    <string name="sum_ringtone_sound">Sound for messages</string>
+    <string name="title_passcode">Passcode</string>
+    <string name="message_passcode_to_open_ola">Passcode to open Ola</string>
+    <string name="message_logout_hint">You will not be able to receive message from your friends</string>
+    <string name="string_passcode_not_match">Passcodes did not match. Try again</string>
+    <string name="string_turn_passcode_on">Turn Passcode On</string>
+    <string name="string_turn_passcode_off">Turn Passcode Off</string>
+    <string name="string_immediately">Immediately</string>
+    <string name="string_after_min">After %1$s minute</string>
+    <string name="string_after_mins">After %1$s minutes</string>
+    <string name="string_after_hour">After %1$s hour</string>
+    <string name="string_after_hours">After %1$s hours</string>
+    <string name="string_passcode_lock">Passcode Lock</string>
+    <string name="string_change_passcode">Change Passcode</string>
+    <string name="string_passcode_fail">%1$s Failed Passcode Attempt</string>
+    <string name="string_passcode_fails">%1$s Failed Passcode Attempts</string>
+    <string name="string_require_passcode">Require Passcode</string>
+    <string name="string_swipe_down_to_refesh">Swipe down to refesh</string>
+    <string name="string_conversations">Conversations</string>
+    <string name="message_this_feature_is_not_supported_on_your_device">This feature is not supported on your device</string>
+    <string name="string_post_status_to_me_page">Post status to Me page</string>
+    <string name="string_write_diary">Write diary</string>
+    <string name="string_liked_this">Liked this</string>
+    <string name="string_shared_this">Shared this</string>
+    <string name="message_shared_on_your_timeline">Shared on your timeline</string>
+    <string name="string_older_message">Older message</string>
+    <string name="string_enter_nick_name">Enter nick name</string>
+    <string name="string_enter_nick_name_or_phone_number">Enter nick name or phone number</string>
+    <string name="string_using">Using</string>
+    <string name="string_locked">Locked</string>
+    <string name="string_using_vip_icon">Using VIP icon</string>
+    <string name="string_who_can_see">Who can see</string>
+    <string name="string_vip_icon_quantity">VIP icon quantity</string>
+    <string name="string_vip_expired">VIP expired</string>
+    <string name="string_vip_duration_unlimited">VIP duration unlimited</string>
+    <string name="string_chat_group_description_count">Having %1$s chat group(s)</string>
+    <string name="string_join_ola">Joined Ola</string>
+    <string name="string_tap_to_change_password">Tap to change password</string>
+    <string name="string_relationship">Relationship</string>
+    <string name="hint_enter_birthday">Enter your birthday</string>
+    <string name="hint_enter_phone_number">Enter your phone number</string>
+    <string name="hint_enter_fullname">Enter your full name</string>
+    <string name="string_select_contacts">Select contacts</string>
+    <string name="message_do_you_want_to_verify_your_phone_number">Do you want to verify your phone number?</string>
+    <string name="string_help">Help</string>
+    <string name="message_confirm_phone_number_on_this_device">The phone number %1$s is on this device?</string>
+    <string name="hint_enter_gender">Enter your gender</string>
+    <string name="message_delete_albums_confirm_format">Do you want to delete %1$s album(s)?</string>
+    <string name="string_touch_to_play_video">Touch to play</string>
+    <string name="string_touch_to_play_music">Touch to play</string>
+    <string name="string_view_all_photos">View All Photos</string>
+    <string name="string_view_all_followings">View All Followings</string>
+    <string name="string_me_posts">Me Posts</string>
+    <string name="string_not_yet_been_kissed">Not yet been kissed</string>
+    <string name="string_kiss">Kiss</string>
+    <string name="string_kisses">Kisses</string>
+    <string name="string_change_profile_picture">Change Profile Picture</string>
+    <string name="string_change_cover_picture">Change Cover Picture</string>
+    <string name="string_change_me_privacy">Change Me Page Privacy</string>
+    <string name="string_update_info">Update Info</string>
+    <string name="string_transition_name_avatar">avatarImageView</string>
+    <string name="string_clan_foundation_date">Clan foundation date %1$s</string>
+    <string name="string_liked">Liked</string>
+    <string name="string_select_filter_mode">Select filter</string>
+    <string name="message_happy_birthday_message_sent_to">Me message sent to %1$s</string>
+    <string name="message_write_me_message_to">Write Me message to</string>
+    <string name="string_today_birthdays">Today\'s Birthdays</string>
+    <string name="string_note_title">Note title</string>
+    <string name="string_who_view_me">Who viewed Me?</string>
+
+
+
+    <string-array name="entry_ringtone_sound">
+        <item>Default</item>
+        <item>Ola</item>
+    </string-array>
+    <string-array name="values_ringtone_sound">
+        <item>Default</item>
+        <item>Ola</item>
+    </string-array>
+
+
+
+</resources>
